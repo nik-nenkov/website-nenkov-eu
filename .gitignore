@@ -1,0 +1,9 @@
+## Need not to store on the remote:
+.idea
+.vscode
+dist
+logs
+node_modules
+package-lock.json
+/.vscode/
+/.quasar/
