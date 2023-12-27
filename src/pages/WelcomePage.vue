@@ -42,7 +42,7 @@
       countStr(seconds)
   }
   const countStr = (n: number) => {
-    return n != 1 ? `s` : ``
+    return n != 1 ? `s` : ` `
   }
   const trailingZero = (n: number) => {
     return n < 10 ? `0` : ``
