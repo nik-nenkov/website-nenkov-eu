@@ -5,9 +5,24 @@
     "icon": "fas fa-envelope"
   },
   {
-    "name": "Gmail",
-    "url": "mailto:nn8543@gmail.com",
-    "icon": "fab fa-google"
+    "name": "LinkedIn",
+    "url": "https://www.linkedin.com/in/nik-nenkov/",
+    "icon": "fab fa-linkedin-in"
+  },
+  {
+    "name": "WhatsApp",
+    "url": "https://wa.me/+359890138750",
+    "icon": "fab fa-whatsapp"
+  },
+  {
+    "name": "Goodreads",
+    "url": "https://www.goodreads.com/nik_nenkov",
+    "icon": "fab fa-goodreads-g"
+  },
+  {
+    "name": "Discord",
+    "url": "https://discord.com/users/476459538661376012",
+    "icon": "fab fa-discord"
   },
   {
     "name": "GitHub",
@@ -15,9 +30,19 @@
     "icon": "fab fa-github"
   },
   {
-    "name": "LinkedIn",
-    "url": "https://www.linkedin.com/in/nik-nenkov/",
-    "icon": "fab fa-linkedin-in"
+    "name": "Patreon",
+    "url": "https://www.patreon.com/NNenkov/shop",
+    "icon": "fab fa-patreon"
+  },
+  {
+    "name": "Gmail",
+    "url": "mailto:nn8543@gmail.com",
+    "icon": "fab fa-google"
+  },
+  {
+    "name": "YouTube",
+    "url": "https://www.youtube.com/@nik.nenkov",
+    "icon": "fab fa-youtube"
   },
   {
     "name": "Twitter",
@@ -30,11 +55,6 @@
     "icon": "fab fa-pinterest-p"
   },
   {
-    "name": "Goodreads",
-    "url": "https://www.goodreads.com/nik_nenkov",
-    "icon": "fab fa-goodreads-g"
-  },
-  {
     "name": "Instagram",
     "url": "https://www.instagram.com/nik.nenkov/",
     "icon": "fab fa-instagram"
@@ -45,16 +65,6 @@
     "icon": "fab fa-facebook-f"
   },
   {
-    "name": "YouTube",
-    "url": "https://www.youtube.com/channel/UCJ0W3ultE-RnRuXyfI66Z3g",
-    "icon": "fab fa-youtube"
-  },
-  {
-    "name": "WhatsApp",
-    "url": "https://wa.me/+359890138750",
-    "icon": "fab fa-whatsapp"
-  },
-  {
     "name": "TikTok",
     "url": "https://www.tiktok.com/@nik_nenkov",
     "icon": "fab fa-tiktok"
@@ -63,11 +73,6 @@
     "name": "Spotify",
     "url": "https://open.spotify.com/user/31pggkxleiamfhkg3iykhkwzveoy",
     "icon": "fab fa-spotify"
-  },
-  {
-    "name": "Discord",
-    "url": "https://discord.com/users/476459538661376012",
-    "icon": "fab fa-discord"
   },
   {
     "name": "Reddit",
@@ -85,7 +90,7 @@
     "icon": "fab fa-telegram-plane"
   },
   {
-    "name": "Buy Me a Coffee",
+    "name": "BuyMeACoffee",
     "url": "https://www.buymeacoffee.com/nnenkov",
     "icon": "fas fa-coffee"
   }
