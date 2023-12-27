@@ -1,6 +1,6 @@
 <template>
   <q-page class="full-width-page">
-    <h6 class="custom-header">{{ timeUntilNewYear }}</h6>
+    <h6 class="custom-header" v-html="timeUntilNewYear" />
     <h4 class="custom-header">Until The Year 2024</h4>
     <h4 class="custom-header">...</h4>
     <h4 class="custom-header">...</h4>
@@ -25,27 +25,23 @@
 
     timeUntilNewYear.value =
       `0` +
-      trailingZero(days) +
-      `${days}day` +
-      countStr(days) +
+      timeToText(`day`, days) +
       ` ` +
-      trailingZero(hours) +
-      `${hours}hour` +
-      countStr(hours) +
+      timeToText(`hour`, hours) +
       ` ` +
-      trailingZero(minutes) +
-      `${minutes}minute` +
-      countStr(minutes) +
+      timeToText(`minute`, minutes) +
       ` ` +
-      trailingZero(seconds) +
-      `${seconds}second` +
-      countStr(seconds)
+      timeToText('second', seconds)
   }
   const countStr = (n: number) => {
-    return n != 1 ? `s` : ` `
+    return n != 1 ? `s` : `&nbsp;`
   }
   const trailingZero = (n: number) => {
     return n < 10 ? `0` : ``
+  }
+
+  const timeToText = (s: string, n: number) => {
+    return trailingZero(n) + `${n}` + s + countStr(n)
   }
 
   const intervalId = ref()
@@ -61,27 +57,26 @@
 </script>
 
 <style lang="scss">
-.full-width-page {
-  display: flex;
-  flex-flow: column;
-  justify-content: center;
-  align-items: center;
-}
-
-.custom-header {
-  color: #3b68a7;
-  font-family: 'Roboto Mono', monospace;
-  user-select: none;
-  cursor: default;
-  font-size: 1.5rem;
-  line-height: 1.4;
-  margin-bottom: 0.5rem;
-  max-width: 80%;
-  text-align: center;
-
-  @media (max-width: 600px) {
-    font-size: 1.2rem; // Smaller font size for mobile devices
+  .full-width-page {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
   }
-}
 
+  .custom-header {
+    color: #3b68a7;
+    font-family: 'Roboto Mono', monospace;
+    user-select: none;
+    cursor: default;
+    font-size: 1.5rem;
+    line-height: 1.4;
+    margin-bottom: 0.5rem;
+    max-width: 80%;
+    text-align: center;
+
+    @media (max-width: 600px) {
+      font-size: 1.2rem; // Smaller font size for mobile devices
+    }
+  }
 </style>
