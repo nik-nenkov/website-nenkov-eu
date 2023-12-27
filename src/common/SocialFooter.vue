@@ -1,18 +1,18 @@
 <template>
   <q-footer class="social-footer">
-    <q-bar class="social-links">
-        <q-btn
-          v-for="link in displayedSocialLinks"
-          :key="link.name"
-          :href="link.url"
-          :icon="link.icon"
-          class="social-link"
-          rel="noopener noreferrer"
-          round
-          target="_blank"
-        />
+    <q-bar class="social-links relative-position">
+      <q-btn
+        v-for="link in displayedSocialLinks"
+        :key="link.name"
+        :href="link.url"
+        :icon="link.icon"
+        class="social-link"
+        rel="noopener noreferrer"
+        round
+        target="_blank"
+      />
       <q-btn class="social-link expand-list" @click="toggleSocialExpand">
-        {{ socialLinksExpanded ? '>>> less' : '<<< more' }}
+        {{ socialLinksExpanded ? 'less' : 'more' }}
       </q-btn>
     </q-bar>
   </q-footer>
@@ -77,7 +77,7 @@
 </style>
 <script lang="ts" setup>
   import { onMounted, ref } from 'vue'
-  import { preferredSocialLinks } from '../constants'
+  import { preferredSocialLinkNames } from '../constants'
 
   interface SocialLink {
     name: string
@@ -93,7 +93,7 @@
     try {
       socialLinks.value = await (await fetch('/data/social.json')).json()
       displayedSocialLinks.value = socialLinks.value.filter((v) =>
-        preferredSocialLinks.includes(v.name)
+        preferredSocialLinkNames.includes(v.name)
       )
     } catch (error) {
       console.error('Error loading social links:', error)
@@ -105,15 +105,18 @@
     socialLinksExpanded.value = !socialLinksExpanded.value
     if (socialLinksExpanded.value) {
       socialLinks.value
-        .filter((v) => !preferredSocialLinks.includes(v.name))
+        .filter((v) => !preferredSocialLinkNames.includes(v.name))
         .forEach((link, index) => {
           setTimeout(() => {
-            displayedSocialLinks.value.push(link)
+            if(!displayedSocialLinks.value.includes(link)){
+              displayedSocialLinks.value.push(link)
+            }
           }, index * delay)
         })
     } else {
       socialLinks.value
-        .filter((v) => !preferredSocialLinks.includes(v.name)).reverse()
+        .filter((v) => !preferredSocialLinkNames.includes(v.name))
+        .reverse()
         .forEach((link, index) => {
           setTimeout(() => {
             const index = displayedSocialLinks.value.findIndex((d) => d.name === link.name)
