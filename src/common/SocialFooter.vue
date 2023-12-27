@@ -44,7 +44,7 @@
   }
 
   .expand-list {
-    width: 5.5rem;
+    width: 5.4rem;
     border-radius: 50vh;
   }
 
