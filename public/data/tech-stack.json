@@ -1,0 +1,187 @@
+[
+  {
+    "name": "Angular",
+    "officialDocs": "https://angular.io/docs",
+    "logoUrl": "https://angular.io/assets/images/logos/angular/angular.svg",
+    "type": "Framework",
+    "layer": "Frontend",
+    "monthsSinceLastUse": 24,
+    "experience": 2
+  },
+  {
+    "name": "JDK",
+    "officialDocs": "https://docs.oracle.com/en/java/javase/",
+    "logoUrl": "https://upload.wikimedia.org/wikipedia/en/3/30/Java_programming_language_logo.svg",
+    "type": "Language",
+    "monthsSinceLastUse": 0,
+    "layer": "Backend"
+  },
+  {
+    "name": "GoLang",
+    "officialDocs": "https://golang.org/doc/",
+    "logoUrl": "https://go.dev/images/go-logo-blue.svg",
+    "type": "Language",
+    "monthsSinceLastUse": 3,
+    "layer": "Backend"
+  },
+  {
+    "name": "Python",
+    "officialDocs": "https://docs.python.org/3/",
+    "logoUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c3/Python-logo-notext.svg",
+    "type": "Language",
+    "monthsSinceLastUse": 0,
+    "layer": "Backend"
+  },
+  {
+    "name": "Spring Boot",
+    "officialDocs": "https://spring.io/projects/spring-boot",
+    "logoUrl": "https://miro.medium.com/v2/resize:fit:720/format:webp/0*R60lnmJl4hanOBaJ.png",
+    "type": "Framework",
+    "monthsSinceLastUse": 0,
+    "layer": "Backend"
+  },
+  {
+    "name": "Spring Security",
+    "officialDocs": "https://spring.io/projects/spring-security",
+    "logoUrl": "https://www.javacodegeeks.com/wp-content/uploads/2014/07/spring-security-project.png",
+    "type": "Framework",
+    "monthsSinceLastUse": 20,
+    "layer": "Backend"
+  },
+  {
+    "name": "RabbitMQ",
+    "officialDocs": "https://www.rabbitmq.com/documentation.html",
+    "logoUrl": "https://cdn.freebiesupply.com/logos/large/2x/rabbitmq-logo-png-transparent.png",
+    "type": "Messaging",
+    "monthsSinceLastUse": 0,
+    "layer": "Messaging"
+  },
+  {
+    "name": "SportRadar",
+    "officialDocs": "https://developer.sportradar.com/docs/read/Home",
+    "logoUrl": "https://developer.sportradar.com/files/logo.svg",
+    "type": "API",
+    "monthsSinceLastUse": 20,
+    "layer": "Integration"
+  },
+  {
+    "name": "OpenLayers",
+    "officialDocs": "https://openlayers.org/doc/",
+    "logoUrl": "https://openlayers.org/theme/img/logo-dark.svg",
+    "type": "Library",
+    "monthsSinceLastUse": 0,
+    "layer": "Frontend"
+  },
+  {
+    "name": "Auth0",
+    "officialDocs": "https://auth0.com/docs",
+    "logoUrl": "https://cdn.auth0.com/styleguide/components/1.0.8/media/logos/img/badge.png",
+    "type": "Service",
+    "monthsSinceLastUse": 0,
+    "layer": "Security"
+  },
+  {
+    "name": "PostgreSQL",
+    "officialDocs": "https://www.postgresql.org/docs/",
+    "logoUrl": "https://www.postgresql.org/media/img/about/press/elephant.png",
+    "type": "Database",
+    "monthsSinceLastUse": 0,
+    "layer": "Relational"
+  },
+  {
+    "name": "IntelliJ",
+    "officialDocs": "https://www.jetbrains.com/idea/documentation/",
+    "logoUrl": "https://resources.jetbrains.com/storage/products/company/brand/logos/IntelliJ_IDEA_icon.svg",
+    "type": "IDE",
+    "monthsSinceLastUse": 0,
+    "layer": "Development"
+  },
+  {
+    "name": "Docker",
+    "officialDocs": "https://docs.docker.com/",
+    "logoUrl": "https://www.docker.com/wp-content/uploads/2022/03/Moby-logo.png",
+    "type": "Platform",
+    "monthsSinceLastUse": 0,
+    "layer": "Deployment"
+  },
+  {
+    "name": "JaegerTracing",
+    "officialDocs": "https://www.jaegertracing.io/docs/",
+    "logoUrl": "https://seeklogo.com/images/J/jaeger-logo-9E2F0DC07B-seeklogo.com.png",
+    "type": "Tool",
+    "monthsSinceLastUse": 20,
+    "layer": "Monitoring"
+  },
+  {
+    "name": "ElasticSearch",
+    "officialDocs": "https://www.elastic.co/guide/index.html",
+    "logoUrl": "https://cdn.iconscout.com/icon/free/png-512/free-elasticsearch-226094.png",
+    "type": "Database",
+    "monthsSinceLastUse": 30,
+    "layer": "DB"
+  },
+  {
+    "name": "MQTT",
+    "officialDocs": "https://mqtt.org/documentation/",
+    "logoUrl": "https://mqtt.org/assets/downloads/mqtt-ver.png",
+    "type": "Protocol",
+    "monthsSinceLastUse": 2,
+    "layer": "Messaging"
+  },
+  {
+    "name": "WebSocket",
+    "officialDocs": "https://developer.mozilla.org/en-US/docs/Web/API/WebSockets_API",
+    "logoUrl": "https://docs.loriot.io/download/attachments/14877936/websocket-logo.png",
+    "type": "Protocol",
+    "monthsSinceLastUse": 2,
+    "layer": "Communication"
+  },
+  {
+    "name": "DBeaver",
+    "officialDocs": "https://dbeaver.io/docs/wiki/",
+    "logoUrl": "https://dbeaver.io/wp-content/uploads/2015/09/beaver-head.png",
+    "type": "Database Tool",
+    "monthsSinceLastUse": 0,
+    "layer": "Data Management"
+  },
+  {
+    "name": "Postman",
+    "officialDocs": "https://learning.postman.com/docs/getting-started/introduction/",
+    "logoUrl": "https://cdn.worldvectorlogo.com/logos/postman.svg",
+    "type": "API Tool",
+    "monthsSinceLastUse": 0,
+    "layer": "API Testing"
+  },
+  {
+    "name": "Shell",
+    "officialDocs": "https://www.gnu.org/software/bash/manual/bash.html",
+    "logoUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4b/Bash_Logo_Colored.svg",
+    "type": "Command Line Interface",
+    "monthsSinceLastUse": 0,
+    "layer": "System Operations"
+  },
+  {
+    "name": "Kubernetes",
+    "officialDocs": "https://kubernetes.io/docs/home/",
+    "logoUrl": "https://kubernetes.io/images/favicon.png",
+    "type": "Container Orchestration",
+    "monthsSinceLastUse": 12,
+    "layer": "Infrastructure Management"
+  },
+  {
+    "name": "TypeScript",
+    "officialDocs": "https://www.typescriptlang.org/docs/",
+    "logoUrl": "https://www.typescriptlang.org/icons/icon-48x48.png",
+    "type": "Programming Language",
+    "monthsSinceLastUse": 0,
+    "layer": "Application Development"
+  },
+  {
+    "name": "CodeIgniter",
+    "officialDocs": "https://www.codeigniter.com/discuss",
+    "logoUrl": "https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/codeigniter-icon.png",
+    "type": "Framework",
+    "monthsSinceLastUse": 120,
+    "layer": "Backend"
+  }
+]

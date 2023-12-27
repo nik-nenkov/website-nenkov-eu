@@ -91,7 +91,7 @@
 
   onMounted(async () => {
     try {
-      socialLinks.value = await (await fetch('/data/social.json')).json()
+      socialLinks.value = await (await fetch('/data/social-links.json')).json()
       displayedSocialLinks.value = socialLinks.value.filter((v) =>
         preferredSocialLinkNames.includes(v.name)
       )

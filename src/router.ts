@@ -13,6 +13,11 @@ const routes: Array<RouteRecordRaw> = [
     component: () => import('./pages/TimelinePage.vue'),
   },
   {
+    path: '/tech-stack',
+    name: "Technologies used",
+    component: () => import('./common/TechTable.vue'),
+  },
+  {
     path: '/:catchAll(.*)',
     name: notFoundPageTitle,
     component: () => import('./pages/NotFoundPage.vue'),
