@@ -50,10 +50,15 @@
     }
   }
 </style>
-<script setup>
+<script lang="ts" setup>
   import { onMounted, ref } from 'vue'
+  interface SocialLink {
+    name: string;
+    url: string;
+    icon: string;
+  }
 
-  const socialLinks = ref([])
+  const socialLinks = ref<SocialLink[]>([]);
 
   onMounted(async () => {
     try {
