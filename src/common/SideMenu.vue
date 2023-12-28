@@ -17,7 +17,7 @@ function navigateOut(s: string) {
   </q-list>
 </template>
 
-<style scoped lang="scss">
+<style lang="scss">
 @import "src/main";
 .side-menu-list{
   background-color: $primary;

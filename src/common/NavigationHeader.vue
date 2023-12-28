@@ -19,6 +19,7 @@
         {{ $t('lang') }}
       </q-btn>
       <q-btn
+        style="z-index: 9999 !important;"
         ref="sideMenuBtn"
         class="btn-act"
         icon="fa fa-bars"
@@ -26,7 +27,7 @@
         target="_blank"
         @click="openMenu()"
       >
-        <SideMenu v-if="sideMenuIsExpanded" style="position: absolute; z-index:9999; right: 12px; top: 48px" />
+        <SideMenu v-if="sideMenuIsExpanded" style="position: absolute; right: 12px; top: 48px" />
       </q-btn>
     </q-bar>
     <q-item class="row justify-center col-sm-8">
