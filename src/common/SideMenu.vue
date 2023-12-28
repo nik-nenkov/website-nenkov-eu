@@ -31,7 +31,7 @@ function navigateOut(s: string) {
     margin: 2px;
     font-family: sans-serif;
     line-height: 2rem;
-    width: 8rem;
+    width: 9.4rem;
   }
 }
 </style>
