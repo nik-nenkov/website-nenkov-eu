@@ -191,5 +191,13 @@
     "type": "Language",
     "monthsSinceLastUse": 80,
     "layer": "Application Software"
+  },
+  {
+    "name": "MetalpriceAPI",
+    "officialDocs": "https://metalpriceapi.com/documentation",
+    "logoUrl": "https://metalpriceapi.com/assets/logo-dark-b4271658d08b5c510c2204a516115f6707c329150d4ccc483ba70d0d9830b35a.png",
+    "type": "API",
+    "monthsSinceLastUse": 4,
+    "layer": "3rd party"
   }
 ]

@@ -57,15 +57,18 @@
 <style>
   .tech-icon {
     align-self: center;
-    height: 60px;
+    max-height: 60px;
     max-width: 120px;
     margin: 6px;
+    height: auto;
+    width: auto;
+    object-fit: contain;
   }
 
-  .q-td.text-right {
+  .q-td.text-right a{
     display: flex;
-    height: fit-content;
     justify-content: center;
     align-items: center;
+    height: 80px;
   }
 </style>
