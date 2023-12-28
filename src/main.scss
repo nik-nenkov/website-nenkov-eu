@@ -1,19 +1,11 @@
-$primary: #2D503E;
-$secondary: #009933;
-$labels: #F0F0F0;
-$accent: #FFC107;
-
-$positive: #4CAF50;
-$negative: #F44336;
-$info: #2196F3;
-$warning: #FFC107;
+@import "quasar-variables";
 
 $gradient-ps: linear-gradient(to right, $primary, $secondary);
-$gradient-sl: linear-gradient(to right, $secondary, $labels);
-$gradient-la: linear-gradient(to right, $labels, $accent);
+$gradient-sl: linear-gradient(to right, $secondary, $blank);
+$gradient-la: linear-gradient(to right, $blank, $accent);
 
 .btn-act {
-  color: $labels;
+  color: $blank;
   padding: 0.4rem;
   background-color: $primary;
   transition: color 0.3s;
@@ -49,4 +41,8 @@ html,body{
   margin: 0;
   padding: 0;
   min-width: 240px;
+}
+
+.color-primary{
+  color: $primary;
 }

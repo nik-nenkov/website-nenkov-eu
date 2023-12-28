@@ -14,7 +14,7 @@
     "logoUrl": "https://upload.wikimedia.org/wikipedia/en/3/30/Java_programming_language_logo.svg",
     "type": "Language",
     "monthsSinceLastUse": 0,
-    "layer": "Backend"
+    "layer": "Application Programming"
   },
   {
     "name": "GoLang",
@@ -22,7 +22,7 @@
     "logoUrl": "https://go.dev/images/go-logo-blue.svg",
     "type": "Language",
     "monthsSinceLastUse": 3,
-    "layer": "Backend"
+    "layer": "Application Programming"
   },
   {
     "name": "Python",
@@ -30,7 +30,7 @@
     "logoUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c3/Python-logo-notext.svg",
     "type": "Language",
     "monthsSinceLastUse": 0,
-    "layer": "Backend"
+    "layer": "Application Programming"
   },
   {
     "name": "Spring Boot",
@@ -52,9 +52,9 @@
     "name": "RabbitMQ",
     "officialDocs": "https://www.rabbitmq.com/documentation.html",
     "logoUrl": "https://cdn.freebiesupply.com/logos/large/2x/rabbitmq-logo-png-transparent.png",
-    "type": "Messaging",
+    "type": "Messaging Service",
     "monthsSinceLastUse": 0,
-    "layer": "Messaging"
+    "layer": "Communication"
   },
   {
     "name": "SportRadar",
@@ -84,9 +84,9 @@
     "name": "PostgreSQL",
     "officialDocs": "https://www.postgresql.org/docs/",
     "logoUrl": "https://www.postgresql.org/media/img/about/press/elephant.png",
-    "type": "Database",
+    "type": "RDBMS",
     "monthsSinceLastUse": 0,
-    "layer": "Relational"
+    "layer": "Data Management"
   },
   {
     "name": "IntelliJ",
@@ -116,9 +116,9 @@
     "name": "ElasticSearch",
     "officialDocs": "https://www.elastic.co/guide/index.html",
     "logoUrl": "https://cdn.iconscout.com/icon/free/png-512/free-elasticsearch-226094.png",
-    "type": "Store and Search",
+    "type": "Engine",
     "monthsSinceLastUse": 30,
-    "layer": "Data"
+    "layer": "Data Management"
   },
   {
     "name": "MQTT",
@@ -126,7 +126,7 @@
     "logoUrl": "https://mqtt.org/assets/downloads/mqtt-ver.png",
     "type": "Protocol",
     "monthsSinceLastUse": 2,
-    "layer": "Messaging"
+    "layer": "Communication"
   },
   {
     "name": "WebSocket",
@@ -140,7 +140,7 @@
     "name": "DBeaver",
     "officialDocs": "https://dbeaver.io/docs/wiki/",
     "logoUrl": "https://dbeaver.io/wp-content/uploads/2015/09/beaver-head.png",
-    "type": "Database Tool",
+    "type": "Tool",
     "monthsSinceLastUse": 0,
     "layer": "Data Management"
   },
@@ -148,7 +148,7 @@
     "name": "Postman",
     "officialDocs": "https://learning.postman.com/docs/getting-started/introduction/",
     "logoUrl": "https://cdn.worldvectorlogo.com/logos/postman.svg",
-    "type": "API Tool",
+    "type": "Tool",
     "monthsSinceLastUse": 0,
     "layer": "API Testing"
   },
@@ -166,15 +166,15 @@
     "logoUrl": "https://kubernetes.io/images/favicon.png",
     "type": "Container Orchestration",
     "monthsSinceLastUse": 12,
-    "layer": "Infrastructure Management"
+    "layer": "Infrastructure"
   },
   {
     "name": "TypeScript",
     "officialDocs": "https://www.typescriptlang.org/docs/",
     "logoUrl": "https://www.typescriptlang.org/icons/icon-48x48.png",
-    "type": "Programming Language",
+    "type": "Language",
     "monthsSinceLastUse": 0,
-    "layer": "Application Development"
+    "layer": "Software Programming"
   },
   {
     "name": "CodeIgniter",
@@ -190,7 +190,7 @@
     "logoUrl": "https://isocpp.org/assets/images/cpp_logo.png",
     "type": "Language",
     "monthsSinceLastUse": 80,
-    "layer": "Application Software"
+    "layer": "Software Programming"
   },
   {
     "name": "MetalpriceAPI",
@@ -198,6 +198,22 @@
     "logoUrl": "https://metalpriceapi.com/assets/logo-dark-b4271658d08b5c510c2204a516115f6707c329150d4ccc483ba70d0d9830b35a.png",
     "type": "API",
     "monthsSinceLastUse": 4,
-    "layer": "3rd party"
+    "layer": "Integration"
+  },
+  {
+    "name": "Figma",
+    "officialDocs": "https://www.figma.com/community",
+    "logoUrl": "/images/figma_logo_icon_128x128.png",
+    "type": "Tool",
+    "monthsSinceLastUse": 0,
+    "layer": "Design"
+  },
+  {
+    "name": "SUMO",
+    "officialDocs": "https://sumo.dlr.de/docs",
+    "logoUrl": "https://sumo.dlr.de/docs/images/sumo-logo.png",
+    "type": "Engine",
+    "monthsSinceLastUse": 12,
+    "layer": "Simulation"
   }
 ]

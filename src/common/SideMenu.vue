@@ -25,7 +25,7 @@ function navigateOut(s: string) {
   padding: 3px;
   overflow: hidden;
   .side-menu-item{
-    background-color: $labels;
+    background-color: $blank;
     color: $secondary;
     border-radius: 3px;
     margin: 2px;

@@ -1,16 +1,20 @@
 import { createRouter, createWebHashHistory, RouteRecordRaw } from 'vue-router'
-import { notFoundPageTitle, timelinePageTitle, welcomePageTitle } from "./constants";
 
 const routes: Array<RouteRecordRaw> = [
   {
     path: '/',
-    name: welcomePageTitle,
+    name: 'Nikolay Nenkov',
     component: () => import('./pages/WelcomePage.vue'),
   },
   {
     path: '/timeline',
-    name: timelinePageTitle,
+    name: 'Chronological Order',
     component: () => import('./pages/TimelinePage.vue'),
+  },
+  {
+    path: '/projects',
+    name: 'Participation in Projects',
+    component: () => import('./pages/ProjectsPage.vue'),
   },
   {
     path: '/tech-stack',
@@ -19,7 +23,7 @@ const routes: Array<RouteRecordRaw> = [
   },
   {
     path: '/:catchAll(.*)',
-    name: notFoundPageTitle,
+    name: 'There is nothing on this route',
     component: () => import('./pages/NotFoundPage.vue'),
   },
 ]

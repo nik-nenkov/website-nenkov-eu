@@ -47,7 +47,7 @@
   }
 
   .social-link {
-    color: $labels;
+    color: $blank;
     background-color: $primary;
     transition: color 0.3s;
     padding: 0.5rem;

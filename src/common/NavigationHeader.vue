@@ -1,6 +1,6 @@
 <template>
   <q-header class="navigation-header row reverse">
-    <q-bar class="btn-bar col-12 col-sm-2">
+    <q-bar class="btn-bar col-12 col-sm-3">
       <q-btn
         class="btn-act"
         icon="fa fa-home"
@@ -30,7 +30,7 @@
         <SideMenu v-if="sideMenuIsExpanded" style="position: absolute; right: 12px; top: 48px" />
       </q-btn>
     </q-bar>
-    <q-item class="row justify-center col-sm-8">
+    <q-item class="row justify-center col-sm-6">
       {{ $t('welcome-title') }}
     </q-item>
   </q-header>
@@ -55,6 +55,7 @@
   import { useRouter } from 'vue-router'
   import SideMenu from './SideMenu.vue'
   import { onBeforeUnmount, onMounted, ref } from 'vue'
+  import { currentlyAvailableLocales } from "../constants";
 
   const router = useRouter()
   function goHome() {
@@ -66,14 +67,12 @@
   const sideMenuIsExpanded = ref(false)
 
 
-
   const { locale } = useI18n()
 
-  const locales = ['bg', 'en', 'de']
 
   const changeLanguage = () => {
-    const nextLocaleIndex = locales.findIndex((l) => l === locale.value) + 1
-    locale.value = locales[locales.length === nextLocaleIndex ? 0 : nextLocaleIndex]
+    const nextLocaleIndex = currentlyAvailableLocales.findIndex((l) => l === locale.value) + 1
+    locale.value = currentlyAvailableLocales[currentlyAvailableLocales.length === nextLocaleIndex ? 0 : nextLocaleIndex]
   }
 
   const openMenu = () => {

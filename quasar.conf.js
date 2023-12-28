@@ -2,11 +2,13 @@ module.exports = function (/* ctx */) {
   return {
     // Quasar looks for these configurations for its CLI and related tools
     boot: [
-      // 'i18n',
+      'i18n',
       // 'axios',
     ],
 
-    css: ['app.scss'],
+    css: [
+      'src/main.scss',
+    'src/quasar-variables.scss'],
 
     extras: [
       // 'ionicons-v4',
