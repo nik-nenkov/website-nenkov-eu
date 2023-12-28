@@ -1,17 +1,57 @@
 [
   {
-    "name": "Project Name",
+    "name": "Geolocating Internet Content",
     "role": "Software Developer",
     "location": "remote",
-    "duration": "12 months",
+    "duration": "1 month",
     "achievements": "achievements",
     "technologies": "technologies used"
   },
   {
-    "name": "Project Name 2",
+    "name": "Geotracing Company Hardware",
     "role": "Software Developer",
     "location": "Sofia, Bulgaria",
     "duration": "3 months",
+    "achievements": "achievements",
+    "technologies": "technologies used"
+  },
+  {
+    "name": "Commodity Prices API Integration",
+    "role": "Software Developer",
+    "location": "Sofia, Bulgaria",
+    "duration": "2 months",
+    "achievements": "achievements",
+    "technologies": "technologies used"
+  },
+  {
+    "name": "Gaming Administration System",
+    "role": "Software Developer",
+    "location": "Sofia, Bulgaria",
+    "duration": "8 months",
+    "achievements": "achievements",
+    "technologies": "technologies used"
+  },
+  {
+    "name": "Traffic Engineering Tools",
+    "role": "Software Developer",
+    "location": "Sofia, Bulgaria",
+    "duration": "8 months",
+    "achievements": "achievements",
+    "technologies": "technologies used"
+  },
+  {
+    "name": "Sports Data API Integration",
+    "role": "Software Developer",
+    "location": "Sofia, Bulgaria",
+    "duration": "9 months",
+    "achievements": "achievements",
+    "technologies": "technologies used"
+  },
+  {
+    "name": "Contractor Performance Evaluation System",
+    "role": "Software Developer",
+    "location": "Sofia, Bulgaria",
+    "duration": "11 months",
     "achievements": "achievements",
     "technologies": "technologies used"
   }

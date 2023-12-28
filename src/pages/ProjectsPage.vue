@@ -1,27 +1,5 @@
-<script setup lang="ts">
-import { ref, onMounted } from 'vue';
-interface ProjectData {
-  name: string
-  role: string
-  location: string
-  duration: string
-  achievements: string
-  technologies: string
-}
-
-const projects = ref<ProjectData[]>([]);
-
-onMounted(async () => {
-  const response = await fetch('/data/project-history.json');
-  if (response.ok) {
-    projects.value = await response.json();
-  }
-});
-
-</script>
-
 <template>
-  <div class="page-title">{{$t('projects-page-title')}}</div>
+  <div class="page-title">{{ $t('projects-page-title') }}</div>
   <div class="projects-container">
     <div v-for="project in projects" :key="project.name" class="project-card">
       <h3>{{ project.name }}</h3>
@@ -34,31 +12,47 @@ onMounted(async () => {
   </div>
 </template>
 
-<style scoped lang="scss">
-@import 'src/main';
+<style lang="scss" scoped>
+  @import 'src/main';
+  .projects-container {
+    .project-card {
+      background-color: $secondary;
+      padding: 1rem 2rem;
+      margin-bottom: 1rem;
 
-.page-title {
-  color: $primary;
-}
+      @media (min-width: 700px) {
+        margin: 4rem;
+        border-radius: 8px;
+      }
 
-.projects-container {
-  .project-card {
-    background-color: $secondary;
-    padding: 1rem 2rem;
-    margin-bottom: 2rem;
+      h3 {
+        color: $primary;
+      }
 
-    @media (min-width: 700px) {
-      margin: 4rem;
-      border-radius: 8px;
-    }
-
-    h3 {
-      color: $primary;
-    }
-
-    p {
-      color: $blank;
+      p {
+        color: $blank;
+      }
     }
   }
-}
 </style>
+<script lang="ts" setup>
+  import { onMounted, ref } from 'vue'
+
+  interface ProjectData {
+    name: string
+    role: string
+    location: string
+    duration: string
+    achievements: string
+    technologies: string
+  }
+
+  const projects = ref<ProjectData[]>([])
+
+  onMounted(async () => {
+    const response = await fetch('/data/project-history.json')
+    if (response.ok) {
+      projects.value = await response.json()
+    }
+  })
+</script>

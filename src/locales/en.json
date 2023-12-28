@@ -14,7 +14,8 @@
   "seconds": "seconds",
   "not-found": "404 - Not Found",
   "page-does-not-exist": "Oops! The page you are looking for does not exist.",
-  "tech-page-title": "\"Technologies (page under construction)\"",
-  "time-page-title": "\"Timeline (page under construction)\"",
-  "projects-page-title": "\"Participation in projects (page under construction)\""
+  "tech-page-title": "Technologies Used:",
+  "time-page-title": "Timeline of Events:",
+  "projects-page-title": "Participation in Projects:",
+  "under-construction": "(page under construction)"
 }

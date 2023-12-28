@@ -215,5 +215,21 @@
     "type": "Engine",
     "monthsSinceLastUse": 12,
     "layer": "Simulation"
+  },
+  {
+    "name": "Vue.js",
+    "officialDocs": "https://vuejs.org/guide/introduction.html",
+    "logoUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f1/Vue.png",
+    "type": "Framework",
+    "monthsSinceLastUse": 0,
+    "layer": "Frontend"
+  },
+  {
+    "name": "Selenium WebDriver",
+    "officialDocs": "https://www.selenium.dev/documentation/webdriver/",
+    "logoUrl": "https://static-00.iconduck.com/assets.00/selenium-icon-512x496-obrnvg2v.png",
+    "type": "Tool",
+    "monthsSinceLastUse": 6,
+    "layer": "UI Test Automation"
   }
 ]

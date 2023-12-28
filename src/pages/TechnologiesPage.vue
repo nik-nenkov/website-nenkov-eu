@@ -1,13 +1,25 @@
 <template>
-  <div class="page-title">{{$t('tech-page-title')}}</div>
+  <div class="page-title">{{ $t('tech-page-title') }}</div>
   <q-table
     :columns="[
       { name: 'logoUrl', label: 'Icon', field: 'logoUrl', align: 'center', sortable: false },
       { name: 'name', label: 'Name', field: 'name', align: 'left', sortable: true },
       { name: 'layer', label: 'Layer', field: 'layer', align: 'left', sortable: true },
       { name: 'type', label: 'Type', field: 'type', align: 'left', sortable: true },
-      { name: 'monthsSinceLastUse', label: 'Months Since Last Used (for revision)', field: 'monthsSinceLastUse', align: 'left', sortable: true },
-      { name: 'experience', label: 'Experience in Years (for revision)', field: 'experience', align: 'left', sortable: true },
+      {
+        name: 'monthsSinceLastUse',
+        label: 'Months Since Last Used (for revision)',
+        field: 'monthsSinceLastUse',
+        align: 'left',
+        sortable: true,
+      },
+      {
+        name: 'experience',
+        label: 'Experience in Years (for revision)',
+        field: 'experience',
+        align: 'left',
+        sortable: true,
+      },
     ]"
     :loading="loading"
     :pagination.sync="pagination"
@@ -47,7 +59,7 @@
     loading.value = false
     try {
       techData.value = await (await fetch('/data/tech-stack.json')).json()
-      techData.value = techData.value.sort((v1,v2)=>v1.name.localeCompare(v2.name)).reverse()
+      techData.value = techData.value.sort((v1, v2) => v1.name.localeCompare(v2.name)).reverse()
     } catch (error) {
       console.error('Error loading social links:', error)
     }
@@ -65,7 +77,7 @@
     object-fit: contain;
   }
 
-  .q-td.text-right a{
+  .q-td.text-right a {
     display: flex;
     justify-content: center;
     align-items: center;
