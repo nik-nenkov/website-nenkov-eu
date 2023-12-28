@@ -1,4 +1,5 @@
 <template>
+  <div class="page-title">{{$t('tech-page-title')}}</div>
   <q-table
     :columns="[
       { name: 'logoUrl', label: 'Icon', field: 'logoUrl', align: 'center', sortable: false },
@@ -13,7 +14,6 @@
     :rows="techData"
     :rows-per-page-options="[16]"
     row-key="name"
-    title="Technologies"
   >
     <template v-slot:body-cell-logoUrl="props">
       <q-td :props="props" class="q-td text-right">
@@ -47,6 +47,7 @@
     loading.value = false
     try {
       techData.value = await (await fetch('/data/tech-stack.json')).json()
+      techData.value = techData.value.sort((v1,v2)=>v1.name.localeCompare(v2.name)).reverse()
     } catch (error) {
       console.error('Error loading social links:', error)
     }

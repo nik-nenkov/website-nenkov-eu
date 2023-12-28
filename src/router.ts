@@ -15,7 +15,7 @@ const routes: Array<RouteRecordRaw> = [
   {
     path: '/tech-stack',
     name: "Technologies used",
-    component: () => import('./common/TechTable.vue'),
+    component: () => import('./pages/TechnologiesPage.vue'),
   },
   {
     path: '/:catchAll(.*)',

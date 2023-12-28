@@ -1,5 +1,6 @@
 $primary: #2D3E50;
-$secondary: #F0F0F0;
+$secondary: #3b68a7;
+$labels: #F0F0F0;
 $accent: #E57F84;
 
 $positive: #4CAF50;
@@ -7,4 +8,45 @@ $negative: #F44336;
 $info: #2196F3;
 $warning: #FFC107;
 
-$ps-gradient: linear-gradient(to right, $primary, $accent);
+$gradient-ps: linear-gradient(to right, $primary, $secondary);
+$gradient-sl: linear-gradient(to right, $secondary, $labels);
+$gradient-la: linear-gradient(to right, $labels, $accent);
+
+.btn-act {
+  color: $labels;
+  padding: 0.4rem;
+  background-color: $primary;
+  transition: color 0.3s;
+  position: relative;
+  &:hover {
+    color: $accent;
+  }
+}
+
+.btn-bar{
+  gap: 0.75rem;
+  height: fit-content;
+  background-color: transparent;
+  padding: 0.25rem 0;
+  align-items: end;
+}
+
+.page-title{
+  align-items: center;
+  vertical-align: center;
+  text-align: center;
+  font-size: 2rem;
+  color: $secondary;
+  margin: 2rem;
+}
+
+div{
+  cursor: default;
+  user-select: none;
+}
+
+html,body{
+  margin: 0;
+  padding: 0;
+  min-width: 240px;
+}

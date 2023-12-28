@@ -1,8 +1,7 @@
 <template>
   <q-page class="full-width-page">
     <h6 class="custom-header" v-html="timeUntilNewYear" />
-    <h4 class="custom-header">Until The Year 2024</h4>
-    <h4 class="custom-header">...</h4>
+    <h4 class="custom-header">{{$t('until-new-year')}}</h4>
     <h4 class="custom-header">...</h4>
     <h4 class="custom-header">... ... ... ...</h4>
     <h4 class="custom-header">... ... ... ... ... ... ... ... ...</h4>
@@ -11,6 +10,8 @@
 
 <script lang="ts" setup>
   import { onMounted, onUnmounted, ref } from 'vue'
+  import { useI18n } from 'vue-i18n'
+  const { t } = useI18n();
 
   const timeUntilNewYear = ref('')
   const updateTime = () => {
@@ -24,7 +25,7 @@
     const seconds = Math.floor(secondsUntilNewYear % 60)
 
     timeUntilNewYear.value =
-      `0` +
+      `` +
       timeToText(`day`, days) +
       ` ` +
       timeToText(`hour`, hours) +
@@ -34,21 +35,18 @@
       timeToText('second', seconds)
   }
   const countStr = (n: number) => {
-    return n != 1 ? `s` : `&nbsp;`
-  }
-  const trailingZero = (n: number) => {
-    return n < 10 ? `0` : ``
+    return n != 1 ? `s` : ``
   }
 
   const timeToText = (s: string, n: number) => {
-    return trailingZero(n) + `${n}` + s + countStr(n)
+    return `${n} ` + t(s + countStr(n))
   }
 
   const intervalId = ref()
 
   onMounted(() => {
     updateTime()
-    intervalId.value = setInterval(updateTime, 1000)
+    intervalId.value = setInterval(updateTime, 100)
   })
 
   onUnmounted(() => {
@@ -57,6 +55,7 @@
 </script>
 
 <style lang="scss">
+@import "src/main";
   .full-width-page {
     display: flex;
     flex-flow: column;
@@ -65,7 +64,7 @@
   }
 
   .custom-header {
-    color: #3b68a7;
+    color: $secondary;
     font-family: 'Roboto Mono', monospace;
     user-select: none;
     cursor: default;

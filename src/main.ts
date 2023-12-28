@@ -13,8 +13,12 @@ import lang from 'quasar/lang/bg.js'
 import router from './router'
 import { Quasar } from 'quasar'
 import { createApp } from 'vue'
+import { createI18n } from 'vue-i18n'
 import { createAuth0 } from '@auth0/auth0-vue'
 import { createPinia } from 'pinia'
+import en from './locales/en.json'
+import de from './locales/de.json'
+import bg from './locales/bg.json'
 
 interface NewEnv {
   BASE_URL: string
@@ -45,6 +49,18 @@ createApp(App)
   })
   .use(createPinia())
   .use(router)
+  .use(
+    createI18n({
+      legacy: false,
+      locale: 'en',
+      fallbackLocale: 'en',
+      messages: {
+        en,
+        de,
+        bg,
+      },
+    })
+  )
   .use(
     createAuth0({
       domain: env.VITE_AUTH_DOMAIN,

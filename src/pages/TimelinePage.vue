@@ -1,4 +1,5 @@
 <template>
+  <div class="page-title">{{$t('time-page-title')}}</div>
   <div class="column text-center" style="margin: 3rem 0">
     <div class="time-section">
       <div class="time-point"></div>
@@ -10,8 +11,8 @@
       <div class="time-descr-right">
         <div class="down-triangle-border"></div>
         <div class="down-triangle"></div>
-        <b>Nov. 2019</b>
-        <p>Left EPAM systems</p>
+        <b>March 2020</b>
+        <p>Experienced the lockdown</p>
       </div>
     </div>
     <div class="time-section">
@@ -28,8 +29,8 @@
       <div class="time-descr-left">
         <div class="down-triangle-border"></div>
         <div class="down-triangle"></div>
-        <b>May. 2018</b>
-        <p>Starter work at EPAM systems</p>
+        <b>June 2010</b>
+        <p>Graduated from high school</p>
       </div>
     </div>
     <div class="time-section">

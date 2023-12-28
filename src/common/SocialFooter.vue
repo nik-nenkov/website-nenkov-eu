@@ -11,8 +11,8 @@
         round
         target="_blank"
       />
-      <q-btn class="social-link expand-list" @click="toggleSocialExpand">
-        {{ socialLinksExpanded ? 'less' : 'more' }}
+      <q-btn class="social-link" @click="toggleSocialExpand" :disabled="isSocialExpandBtnDisabled">
+        {{ socialLinksExpanded ? '>>>' : '<<<' }}
       </q-btn>
     </q-bar>
   </q-footer>
@@ -22,25 +22,8 @@
 
   .social-footer {
     height: fit-content;
-    background-color: $secondary;
+    background-color: transparent;
     padding: 1rem 0;
-  }
-
-  .list-enter-active,
-  .list-leave-active {
-    transition: opacity 1s;
-  }
-
-  .list-enter-from,
-  .list-leave-to {
-    opacity: 0;
-  }
-
-  .button-container {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 0.5rem;
-    /* Add any additional styles you need for the container */
   }
 
   .expand-list {
@@ -53,7 +36,7 @@
     justify-content: end;
     background-color: transparent;
     flex-wrap: wrap;
-    padding: 0.5rem;
+    padding: 0.75rem;
   }
 
   .social-links {
@@ -61,22 +44,22 @@
     flex-wrap: wrap;
     justify-content: end;
     gap: 0.5rem;
+  }
 
-    .social-link {
-      color: $secondary;
-      background-color: $primary;
-      transition: color 0.3s;
-      padding: 0.5rem;
-      margin: 0.25rem;
+  .social-link {
+    color: $labels;
+    background-color: $primary;
+    transition: color 0.3s;
+    padding: 0.5rem;
+    margin: 0.25rem;
 
-      &:hover {
-        color: $accent;
-      }
+    &:hover {
+      color: $accent;
     }
   }
 </style>
 <script lang="ts" setup>
-  import { onMounted, ref } from 'vue'
+import { computed, onMounted, ref } from "vue";
   import { preferredSocialLinkNames } from '../constants'
 
   interface SocialLink {
@@ -100,31 +83,43 @@
     }
   })
 
-  const delay = 167
+  const delay = 86
+
+  const isSocialExpandBtnDisabled = computed(()=>{
+    return socialLinksLoading.value
+  })
+  const socialLinksLoading = ref(false)
   const toggleSocialExpand = () => {
-    socialLinksExpanded.value = !socialLinksExpanded.value
-    if (socialLinksExpanded.value) {
-      socialLinks.value
-        .filter((v) => !preferredSocialLinkNames.includes(v.name))
-        .forEach((link, index) => {
-          setTimeout(() => {
-            if(!displayedSocialLinks.value.includes(link)){
-              displayedSocialLinks.value.push(link)
-            }
-          }, index * delay)
-        })
-    } else {
-      socialLinks.value
-        .filter((v) => !preferredSocialLinkNames.includes(v.name))
-        .reverse()
-        .forEach((link, index) => {
-          setTimeout(() => {
-            const index = displayedSocialLinks.value.findIndex((d) => d.name === link.name)
-            if (index !== -1) {
-              displayedSocialLinks.value.splice(index, 1)
-            }
-          }, index * delay)
-        })
+    if (socialLinksLoading.value == false) {
+      socialLinksLoading.value = true
+      setTimeout(() => {
+        socialLinksLoading.value = false
+      }, socialLinks.value.length * delay)
+
+      socialLinksExpanded.value = !socialLinksExpanded.value
+      if (socialLinksExpanded.value) {
+        socialLinks.value
+          .filter((v) => !preferredSocialLinkNames.includes(v.name))
+          .forEach((link, index) => {
+            setTimeout(() => {
+              if (!displayedSocialLinks.value.includes(link)) {
+                displayedSocialLinks.value.push(link)
+              }
+            }, index * delay)
+          })
+      } else {
+        socialLinks.value
+          .filter((v) => !preferredSocialLinkNames.includes(v.name))
+          .reverse()
+          .forEach((link, index) => {
+            setTimeout(() => {
+              const index = displayedSocialLinks.value.findIndex((d) => d.name === link.name)
+              if (index !== -1) {
+                displayedSocialLinks.value.splice(index, 1)
+              }
+            }, index * delay)
+          })
+      }
     }
   }
 

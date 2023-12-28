@@ -1,6 +1,13 @@
 <template>
-  <div>
-    <h1>404 - Not Found</h1>
-    <p>Oops! The page you are looking for does not exist.</p>
-  </div>
+  <q-page-container>
+    <h1>{{$t('not-found')}}</h1>
+    <p>{{$t('page-does-not-exist')}}</p>
+  </q-page-container>
 </template>
+<style lang="scss" scoped>
+  h1,
+  p {
+    text-align: center;
+    vertical-align: middle;
+  }
+</style>

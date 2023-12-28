@@ -5,7 +5,7 @@
     "logoUrl": "https://angular.io/assets/images/logos/angular/angular.svg",
     "type": "Framework",
     "layer": "Frontend",
-    "monthsSinceLastUse": 24,
+    "monthsSinceLastUse": 20,
     "experience": 2
   },
   {
@@ -116,9 +116,9 @@
     "name": "ElasticSearch",
     "officialDocs": "https://www.elastic.co/guide/index.html",
     "logoUrl": "https://cdn.iconscout.com/icon/free/png-512/free-elasticsearch-226094.png",
-    "type": "Database",
+    "type": "Store and Search",
     "monthsSinceLastUse": 30,
-    "layer": "DB"
+    "layer": "Data"
   },
   {
     "name": "MQTT",
@@ -183,5 +183,13 @@
     "type": "Framework",
     "monthsSinceLastUse": 120,
     "layer": "Backend"
+  },
+  {
+    "name": "C/C++",
+    "officialDocs": "https://isocpp.org/std/the-standard",
+    "logoUrl": "https://isocpp.org/assets/images/cpp_logo.png",
+    "type": "Language",
+    "monthsSinceLastUse": 80,
+    "layer": "Application Software"
   }
 ]
