@@ -37,7 +37,7 @@
     "vue-tsc": "^1.8.22"
   },
   "engines": {
-    "node": "~21"
+    "node": "^20"
   },
   "author": {
     "email": "nn8543@gmail.com",
