@@ -1,8 +1,8 @@
 {
-  "name": "Nenkov.EU",
-  "short_name": "Nik",
-  "theme_color": "#ffffff",
-  "background_color": "#ffffff",
+  "name": "Nikolay Nenkov | Experienced Fullstack Software Developer | Sofia, Bulgaria, European Union",
+  "short_name": "Nenkov.EU",
+  "theme_color": "#2D503E",
+  "background_color": "#F0F0F0",
   "display": "standalone",
   "scope": "/",
   "start_url": "/",
