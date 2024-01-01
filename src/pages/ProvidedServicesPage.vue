@@ -1,73 +1,74 @@
 <template>
   <q-page class="services-page">
-    <div class="page-title">Providing Services</div>
+    <div class="page-title">{{ $t('services.ourServices') }}</div>
     <q-list class="services-list">
-      <q-item  >
+      <q-item>
         <q-item-section class="provided-service-section">
-          <div class=" custom-header">IT Systems Consulting</div>
-          <div class="service-description">Expert guidance on system architecture, optimization, and best practices.</div>
+          <div class="custom-header">{{ $t('services.itSystemsConsulting') }}</div>
+          <div class="service-description">{{ $t('services.itSystemsConsultingDesc') }}</div>
         </q-item-section>
       </q-item>
 
-      <q-item  >
+      <q-item>
         <q-item-section class="provided-service-section">
-          <div class=" custom-header">Third-Party Integrations</div>
-          <div class="service-description">Seamless integration of diverse systems and software to enhance functionality.</div>
+          <div class="custom-header">{{ $t('services.thirdPartyIntegrations') }}</div>
+          <div class="service-description">{{ $t('services.thirdPartyIntegrationsDesc') }}</div>
         </q-item-section>
       </q-item>
 
-      <q-item  >
+      <q-item>
         <q-item-section class="provided-service-section">
-          <div class=" custom-header">Data Management</div>
-          <div class="service-description">Comprehensive solutions for data storage, acquisition, enrichment, and provision.</div>
+          <div class="custom-header">{{ $t('services.dataManagement') }}</div>
+          <div class="service-description">{{ $t('services.dataManagementDesc') }}</div>
         </q-item-section>
       </q-item>
 
-      <q-item  >
+      <q-item>
         <q-item-section class="provided-service-section">
-          <div class=" custom-header">Web & App Deployments</div>
-          <div class="service-description">Deploying responsive and robust websites and applications.</div>
+          <div class="custom-header">{{ $t('services.webAppDeployments') }}</div>
+          <div class="service-description">{{ $t('services.webAppDeploymentsDesc') }}</div>
         </q-item-section>
       </q-item>
 
-      <q-item  >
+      <q-item>
         <q-item-section class="provided-service-section">
-          <div class=" custom-header">UI/UX Design and Development</div>
-          <div class="service-description">Creating intuitive and visually appealing user interfaces.</div>
+          <div class="custom-header">{{ $t('services.uiUxDesignDevelopment') }}</div>
+          <div class="service-description">{{ $t('services.uiUxDesignDevelopmentDesc') }}</div>
         </q-item-section>
       </q-item>
 
-      <q-item  >
+      <q-item>
         <q-item-section class="provided-service-section">
-          <div class=" custom-header">Messaging Services Integration</div>
-          <div class="service-description">Implementing effective communication channels with messaging brokers.</div>
+          <div class="custom-header">{{ $t('services.messagingServicesIntegration') }}</div>
+          <div class="service-description">{{ $t('services.messagingServicesIntegrationDesc') }}</div>
         </q-item-section>
       </q-item>
 
-      <q-item  >
+      <q-item>
         <q-item-section class="provided-service-section">
-          <div class=" custom-header">Backend REST Services</div>
-          <div class="service-description">Development of reliable and scalable RESTful services.</div>
+          <div class="custom-header">{{ $t('services.backendRestServices') }}</div>
+          <div class="service-description">{{ $t('services.backendRestServicesDesc') }}</div>
         </q-item-section>
       </q-item>
 
-      <q-item  >
+      <q-item>
         <q-item-section class="provided-service-section">
-          <div class=" custom-header">Security Implementation</div>
-          <div class="service-description">Incorporating OAuth and other security protocols for secure applications.</div>
+          <div class="custom-header">{{ $t('services.securityImplementation') }}</div>
+          <div class="service-description">{{ $t('services.securityImplementationDesc') }}</div>
         </q-item-section>
       </q-item>
 
-      <q-item  >
+      <q-item>
         <q-item-section class="provided-service-section">
-          <div class="custom-header">Educational Services</div>
-          <div class="service-description">Teaching mathematics and natural sciences to students; mentoring young professionals in software craftsmanship.</div>
+          <div class="custom-header">{{ $t('services.educationalServices') }}</div>
+          <div v-for="(line, index) in $t('services.educationalServicesDesc').split('\\n')" :key="index" class="service-description">
+            {{ line }}
+          </div>
         </q-item-section>
       </q-item>
     </q-list>
   </q-page>
 </template>
-
 
 <script setup lang="ts">
 // Script content goes here

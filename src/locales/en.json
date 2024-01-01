@@ -30,5 +30,26 @@
     "timeline": "Timeline",
     "projects": "Projects",
     "services": "Services"
+  },
+  "services": {
+    "ourServices": "Services Provided",
+    "itSystemsConsulting": "IT Systems Consulting",
+    "itSystemsConsultingDesc": "Expert guidance on system architecture, optimization, and best practices.",
+    "thirdPartyIntegrations": "Third-Party Integrations",
+    "thirdPartyIntegrationsDesc": "Seamless integration of diverse systems and software to enhance functionality.",
+    "dataManagement": "Data Management",
+    "dataManagementDesc": "Comprehensive solutions for data storage, acquisition, enrichment, and provision.",
+    "webAppDeployments": "Web & App Deployments",
+    "webAppDeploymentsDesc": "Deploying responsive and robust websites and applications.",
+    "uiUxDesignDevelopment": "UI/UX Design and Development",
+    "uiUxDesignDevelopmentDesc": "Creating intuitive and visually appealing user interfaces.",
+    "messagingServicesIntegration": "Messaging Services Integration",
+    "messagingServicesIntegrationDesc": "Implementing effective communication channels with messaging brokers.",
+    "backendRestServices": "Backend REST Services",
+    "backendRestServicesDesc": "Development of reliable and scalable RESTful services.",
+    "securityImplementation": "Security Implementation",
+    "securityImplementationDesc": "Incorporating OAuth and other security protocols for secure applications.",
+    "educationalServices": "Educational Services",
+    "educationalServicesDesc": "Teaching mathematics and natural sciences to students; mentoring young professionals in software craftsmanship."
   }
 }

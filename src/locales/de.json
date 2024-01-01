@@ -30,5 +30,26 @@
     "timeline": "Zeitstrahl",
     "projects": "Projekte",
     "services": "Dienstleistungen"
+  },
+  "services": {
+    "ourServices": "Unsere Dienstleistungen",
+    "itSystemsConsulting": "IT-Systemberatung",
+    "itSystemsConsultingDesc": "Expertenberatung zu Systemarchitektur, Optimierung und Best Practices.",
+    "thirdPartyIntegrations": "Integrationen Dritter",
+    "thirdPartyIntegrationsDesc": "Nahtlose Integration verschiedener Systeme und Software zur Funktionalitätssteigerung.",
+    "dataManagement": "Datenmanagement",
+    "dataManagementDesc": "Umfassende Lösungen für Datenspeicherung, -akquisition, -anreicherung und -bereitstellung.",
+    "webAppDeployments": "Web- und App-Bereitstellungen",
+    "webAppDeploymentsDesc": "Bereitstellung responsiver und robuster Websites und Anwendungen.",
+    "uiUxDesignDevelopment": "UI/UX Design und Entwicklung",
+    "uiUxDesignDevelopmentDesc": "Erstellung von intuitiven und visuell ansprechenden Benutzeroberflächen.",
+    "messagingServicesIntegration": "Integration von Messaging-Diensten",
+    "messagingServicesIntegrationDesc": "Implementierung effektiver Kommunikationskanäle mit Nachrichtenbrokern.",
+    "backendRestServices": "Backend REST-Dienste",
+    "backendRestServicesDesc": "Entwicklung zuverlässiger und skalierbarer RESTful-Dienste.",
+    "securityImplementation": "Sicherheitsimplementierung",
+    "securityImplementationDesc": "Einbindung von OAuth und anderen Sicherheitsprotokollen für sichere Anwendungen.",
+    "educationalServices": "Bildungsdienste",
+    "educationalServicesDesc": "Unterricht in Mathematik und Naturwissenschaften für Studenten; Mentoring für junge Fachleute im Bereich Software-Handwerk."
   }
 }
