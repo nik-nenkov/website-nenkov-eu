@@ -22,6 +22,11 @@ const routes: Array<RouteRecordRaw> = [
     component: () => import('./pages/TechnologiesPage.vue'),
   },
   {
+    path: '/Services',
+    name: "Providing Services",
+    component: () => import('./pages/ProvidedServicesPage.vue'),
+  },
+  {
     path: '/:catchAll(.*)',
     name: 'There is nothing on this route',
     component: () => import('./pages/NotFoundPage.vue'),

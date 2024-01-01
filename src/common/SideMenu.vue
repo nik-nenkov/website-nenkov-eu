@@ -10,10 +10,10 @@ function navigateOut(s: string) {
 
 <template>
   <q-list class="side-menu-list">
-    <q-item class="side-menu-item" clickable @click="navigateOut('tech-stack')">Tech Stack</q-item>
-    <q-item class="side-menu-item" clickable @click="navigateOut('timeline')">Timeline</q-item>
-    <q-item class="side-menu-item" clickable @click="navigateOut('projects')">Projects</q-item>
-    <q-item class="side-menu-item" clickable @click="navigateOut('services')">Services</q-item>
+    <q-item class="side-menu-item" clickable @click="navigateOut('tech-stack')">{{ $t('sideMenu.techStack') }}</q-item>
+    <q-item class="side-menu-item" clickable @click="navigateOut('timeline')">{{ $t('sideMenu.timeline') }}</q-item>
+    <q-item class="side-menu-item" clickable @click="navigateOut('projects')">{{ $t('sideMenu.projects') }}</q-item>
+    <q-item class="side-menu-item" clickable @click="navigateOut('services')">{{ $t('sideMenu.services') }}</q-item>
   </q-list>
 </template>
 

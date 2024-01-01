@@ -17,5 +17,18 @@
   "tech-page-title": "Използвани Технологии:",
   "time-page-title": "Хронологичен Ред:",
   "projects-page-title": "Участия в Проекти:",
-  "under-construction": "(страница в процес на разработка)"
+  "under-construction": "(страница в процес на разработка)",
+  "pageTitles": {
+    "softwareCraftsmanship": "Майсторство в Софтуерното Занаятчийство"
+  },
+  "headers": {
+    "advancingSkills": "Развиване на Уменията в Софтуерния Дизайн, Разработка и Доставка",
+    "sharingThoughts": "Споделяне на Мисли, Идеи, Връзки към Статии и Видеоклипове и Лична История"
+  },
+  "sideMenu": {
+    "techStack": "Технологии",
+    "timeline": "Хронология",
+    "projects": "Проекти",
+    "services": "Услуги"
+  }
 }

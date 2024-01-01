@@ -1,8 +1,8 @@
 <template>
   <q-page class="full-width-page">
-    <q-item class="page-title">Mastering Software Craftsmanship</q-item>
-    <q-item class="custom-header">Advancing the Skills of Software Design, Development, and Deployment</q-item>
-    <q-item class="custom-header">Sharing Thoughts, Ideas, Links to Articles and Videos, and a Personal Backstory</q-item>
+    <q-item class="page-title">{{ $t('pageTitles.softwareCraftsmanship') }}</q-item>
+    <q-item class="custom-header">{{ $t('headers.advancingSkills') }}</q-item>
+    <q-item class="custom-header">{{ $t('headers.sharingThoughts') }}</q-item>
   </q-page>
 </template>
 
@@ -61,19 +61,5 @@
     align-items: center;
   }
 
-  .custom-header {
-    color: $secondary;
-    font-family: 'Roboto Mono', monospace;
-    user-select: none;
-    cursor: default;
-    font-size: 1.5rem;
-    line-height: 1.4;
-    margin-bottom: 0.5rem;
-    max-width: 80%;
-    text-align: center;
 
-    @media (max-width: 600px) {
-      font-size: 1.2rem; // Smaller font size for mobile devices
-    }
-  }
 </style>

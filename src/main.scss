@@ -32,6 +32,22 @@ $gradient-la: linear-gradient(to right, $blank, $accent);
   margin: 2rem;
 }
 
+.custom-header {
+  color: $secondary;
+  font-family: 'Roboto Mono', monospace;
+  user-select: none;
+  cursor: default;
+  font-size: 1.5rem;
+  line-height: 1.4;
+  margin-bottom: 0.5rem;
+  max-width: 80%;
+  text-align: center;
+
+  @media (max-width: 600px) {
+    font-size: 1.2rem; // Smaller font size for mobile devices
+  }
+}
+
 div{
   cursor: default;
   user-select: none;

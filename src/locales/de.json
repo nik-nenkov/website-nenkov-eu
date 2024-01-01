@@ -17,5 +17,18 @@
   "until-new-year": "bis zum neuen Jahr 2024!",
   "projects-page-title": "Teilnahme an Projekten:",
   "under-construction": "(Seite im Aufbau)",
-  "page-does-not-exist": "Die Seite, die Sie suchen, existiert nicht."
+  "page-does-not-exist": "Die Seite, die Sie suchen, existiert nicht.",
+  "pageTitles": {
+    "softwareCraftsmanship": "Meisterung der Software-Handwerkskunst"
+  },
+  "headers": {
+    "advancingSkills": "Förderung der Fähigkeiten in Software-Design, Entwicklung und Bereitstellung",
+    "sharingThoughts": "Teilen von Gedanken, Ideen, Links zu Artikeln und Videos und einer persönlichen Geschichte"
+  },
+  "sideMenu": {
+    "techStack": "Tech-Stack",
+    "timeline": "Zeitstrahl",
+    "projects": "Projekte",
+    "services": "Dienstleistungen"
+  }
 }
