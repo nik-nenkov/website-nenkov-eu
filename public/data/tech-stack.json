@@ -5,7 +5,7 @@
     "logoUrl": "https://angular.io/assets/images/logos/angular/angular.svg",
     "type": "Framework",
     "layer": "Frontend",
-    "monthsSinceLastUse": 20,
+    "lastUsedInMonths": 20,
     "experience": 2
   },
   {
@@ -13,7 +13,7 @@
     "officialDocs": "https://docs.oracle.com/en/java/javase/",
     "logoUrl": "https://upload.wikimedia.org/wikipedia/en/3/30/Java_programming_language_logo.svg",
     "type": "Language",
-    "monthsSinceLastUse": 0,
+    "lastUsedInMonths": 0,
     "layer": "Application Programming"
   },
   {
@@ -21,7 +21,7 @@
     "officialDocs": "https://golang.org/doc/",
     "logoUrl": "https://go.dev/images/go-logo-blue.svg",
     "type": "Language",
-    "monthsSinceLastUse": 3,
+    "lastUsedInMonths": 3,
     "layer": "Application Programming"
   },
   {
@@ -29,7 +29,7 @@
     "officialDocs": "https://docs.python.org/3/",
     "logoUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c3/Python-logo-notext.svg",
     "type": "Language",
-    "monthsSinceLastUse": 0,
+    "lastUsedInMonths": 0,
     "layer": "Application Programming"
   },
   {
@@ -37,7 +37,7 @@
     "officialDocs": "https://spring.io/projects/spring-boot",
     "logoUrl": "https://miro.medium.com/v2/resize:fit:720/format:webp/0*R60lnmJl4hanOBaJ.png",
     "type": "Framework",
-    "monthsSinceLastUse": 0,
+    "lastUsedInMonths": 0,
     "layer": "Backend"
   },
   {
@@ -45,7 +45,7 @@
     "officialDocs": "https://spring.io/projects/spring-security",
     "logoUrl": "https://www.javacodegeeks.com/wp-content/uploads/2014/07/spring-security-project.png",
     "type": "Framework",
-    "monthsSinceLastUse": 20,
+    "lastUsedInMonths": 20,
     "layer": "Backend"
   },
   {
@@ -53,7 +53,7 @@
     "officialDocs": "https://www.rabbitmq.com/documentation.html",
     "logoUrl": "https://cdn.freebiesupply.com/logos/large/2x/rabbitmq-logo-png-transparent.png",
     "type": "Messaging Service",
-    "monthsSinceLastUse": 0,
+    "lastUsedInMonths": 0,
     "layer": "Communication"
   },
   {
@@ -61,7 +61,7 @@
     "officialDocs": "https://developer.sportradar.com/docs/read/Home",
     "logoUrl": "https://developer.sportradar.com/files/logo.svg",
     "type": "API",
-    "monthsSinceLastUse": 20,
+    "lastUsedInMonths": 20,
     "layer": "Integration"
   },
   {
@@ -69,7 +69,7 @@
     "officialDocs": "https://openlayers.org/doc/",
     "logoUrl": "https://openlayers.org/theme/img/logo-dark.svg",
     "type": "Library",
-    "monthsSinceLastUse": 0,
+    "lastUsedInMonths": 0,
     "layer": "Frontend"
   },
   {
@@ -77,31 +77,31 @@
     "officialDocs": "https://auth0.com/docs",
     "logoUrl": "https://cdn.auth0.com/styleguide/components/1.0.8/media/logos/img/badge.png",
     "type": "Service",
-    "monthsSinceLastUse": 0,
+    "lastUsedInMonths": 0,
     "layer": "Security"
   },
   {
     "name": "PostgreSQL",
     "officialDocs": "https://www.postgresql.org/docs/",
     "logoUrl": "https://www.postgresql.org/media/img/about/press/elephant.png",
-    "type": "RDBMS",
-    "monthsSinceLastUse": 0,
-    "layer": "Data Management"
+    "type": "Management System",
+    "lastUsedInMonths": 0,
+    "layer": "Relational Database"
   },
   {
     "name": "IntelliJ",
     "officialDocs": "https://www.jetbrains.com/idea/documentation/",
     "logoUrl": "https://resources.jetbrains.com/storage/products/company/brand/logos/IntelliJ_IDEA_icon.svg",
     "type": "IDE",
-    "monthsSinceLastUse": 0,
-    "layer": "Development"
+    "lastUsedInMonths": 0,
+    "layer": "Application Programing"
   },
   {
     "name": "Docker",
     "officialDocs": "https://docs.docker.com/",
     "logoUrl": "https://www.docker.com/wp-content/uploads/2022/03/Moby-logo.png",
     "type": "Platform",
-    "monthsSinceLastUse": 0,
+    "lastUsedInMonths": 0,
     "layer": "Deployment"
   },
   {
@@ -109,7 +109,7 @@
     "officialDocs": "https://www.jaegertracing.io/docs/",
     "logoUrl": "https://seeklogo.com/images/J/jaeger-logo-9E2F0DC07B-seeklogo.com.png",
     "type": "Tool",
-    "monthsSinceLastUse": 20,
+    "lastUsedInMonths": 20,
     "layer": "Monitoring"
   },
   {
@@ -117,7 +117,7 @@
     "officialDocs": "https://www.elastic.co/guide/index.html",
     "logoUrl": "https://cdn.iconscout.com/icon/free/png-512/free-elasticsearch-226094.png",
     "type": "Engine",
-    "monthsSinceLastUse": 30,
+    "lastUsedInMonths": 30,
     "layer": "Data Management"
   },
   {
@@ -125,7 +125,7 @@
     "officialDocs": "https://mqtt.org/documentation/",
     "logoUrl": "https://mqtt.org/assets/downloads/mqtt-ver.png",
     "type": "Protocol",
-    "monthsSinceLastUse": 2,
+    "lastUsedInMonths": 2,
     "layer": "Communication"
   },
   {
@@ -133,7 +133,7 @@
     "officialDocs": "https://developer.mozilla.org/en-US/docs/Web/API/WebSockets_API",
     "logoUrl": "https://docs.loriot.io/download/attachments/14877936/websocket-logo.png",
     "type": "Protocol",
-    "monthsSinceLastUse": 2,
+    "lastUsedInMonths": 2,
     "layer": "Communication"
   },
   {
@@ -141,7 +141,7 @@
     "officialDocs": "https://dbeaver.io/docs/wiki/",
     "logoUrl": "https://dbeaver.io/wp-content/uploads/2015/09/beaver-head.png",
     "type": "Tool",
-    "monthsSinceLastUse": 0,
+    "lastUsedInMonths": 0,
     "layer": "Data Management"
   },
   {
@@ -149,47 +149,47 @@
     "officialDocs": "https://learning.postman.com/docs/getting-started/introduction/",
     "logoUrl": "https://cdn.worldvectorlogo.com/logos/postman.svg",
     "type": "Tool",
-    "monthsSinceLastUse": 0,
+    "lastUsedInMonths": 0,
     "layer": "API Testing"
   },
   {
     "name": "Shell",
     "officialDocs": "https://www.gnu.org/software/bash/manual/bash.html",
     "logoUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4b/Bash_Logo_Colored.svg",
-    "type": "Command Line Interface",
-    "monthsSinceLastUse": 0,
+    "type": "CLI",
+    "lastUsedInMonths": 0,
     "layer": "System Operations"
   },
   {
     "name": "Kubernetes",
     "officialDocs": "https://kubernetes.io/docs/home/",
     "logoUrl": "https://kubernetes.io/images/favicon.png",
-    "type": "Container Orchestration",
-    "monthsSinceLastUse": 12,
-    "layer": "Infrastructure"
+    "type": "Orchestration",
+    "lastUsedInMonths": 12,
+    "layer": "System Operations"
   },
   {
     "name": "SourceTree",
     "officialDocs": "https://www.sourcetreeapp.com/docs",
     "logoUrl": "/images/212C4E3F5693246F43.jpeg",
-    "type": "Version Control Interface",
-    "monthsSinceLastUse": 0,
-    "layer": "Development Tools"
+    "type": "Version Control",
+    "lastUsedInMonths": 0,
+    "layer": "Client"
   },
   {
     "name": "TortoiseGit",
     "officialDocs": "https://tortoisegit.org/docs/",
     "logoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/TortoiseGit_logo.svg/320px-TortoiseGit_logo.svg.png",
-    "type": "Git Client",
-    "monthsSinceLastUse": 0,
+    "type": "Client",
+    "lastUsedInMonths": 0,
     "layer": "Version Control"
   },
   {
     "name": "ChatGPT",
     "officialDocs": "https://openai.com/api/",
     "logoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/ChatGPT_logo.svg/240px-ChatGPT_logo.svg.png",
-    "type": "AI Language Model",
-    "monthsSinceLastUse": 0,
+    "type": "LLM",
+    "lastUsedInMonths": 0,
     "layer": "AI and Machine Learning"
   },
   {
@@ -197,15 +197,15 @@
     "officialDocs": "https://docs.github.com/en",
     "logoUrl": "https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png",
     "type": "Code Hosting Platform",
-    "monthsSinceLastUse": 0,
-    "layer": "Development Collaboration"
+    "lastUsedInMonths": 0,
+    "layer": "Development"
   },
   {
     "name": "TypeScript",
     "officialDocs": "https://www.typescriptlang.org/docs/",
     "logoUrl": "https://www.typescriptlang.org/icons/icon-48x48.png",
     "type": "Language",
-    "monthsSinceLastUse": 0,
+    "lastUsedInMonths": 0,
     "layer": "Software Programming"
   },
   {
@@ -213,7 +213,7 @@
     "officialDocs": "https://www.codeigniter.com/discuss",
     "logoUrl": "https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/codeigniter-icon.png",
     "type": "Framework",
-    "monthsSinceLastUse": 120,
+    "lastUsedInMonths": 120,
     "layer": "Backend"
   },
   {
@@ -221,7 +221,7 @@
     "officialDocs": "https://isocpp.org/std/the-standard",
     "logoUrl": "https://isocpp.org/assets/images/cpp_logo.png",
     "type": "Language",
-    "monthsSinceLastUse": 80,
+    "lastUsedInMonths": 80,
     "layer": "Software Programming"
   },
   {
@@ -229,7 +229,7 @@
     "officialDocs": "https://metalpriceapi.com/documentation",
     "logoUrl": "https://metalpriceapi.com/assets/logo-dark-b4271658d08b5c510c2204a516115f6707c329150d4ccc483ba70d0d9830b35a.png",
     "type": "API",
-    "monthsSinceLastUse": 4,
+    "lastUsedInMonths": 4,
     "layer": "Integration"
   },
   {
@@ -237,7 +237,7 @@
     "officialDocs": "https://www.figma.com/community",
     "logoUrl": "/images/figma_logo_icon_128x128.png",
     "type": "Tool",
-    "monthsSinceLastUse": 0,
+    "lastUsedInMonths": 0,
     "layer": "Design"
   },
   {
@@ -245,7 +245,7 @@
     "officialDocs": "https://sumo.dlr.de/docs",
     "logoUrl": "https://sumo.dlr.de/docs/images/sumo-logo.png",
     "type": "Engine",
-    "monthsSinceLastUse": 12,
+    "lastUsedInMonths": 12,
     "layer": "Simulation"
   },
   {
@@ -253,15 +253,15 @@
     "officialDocs": "https://vuejs.org/guide/introduction.html",
     "logoUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f1/Vue.png",
     "type": "Framework",
-    "monthsSinceLastUse": 0,
+    "lastUsedInMonths": 0,
     "layer": "Frontend"
   },
   {
-    "name": "Selenium WebDriver",
+    "name": "Selenium",
     "officialDocs": "https://www.selenium.dev/documentation/webdriver/",
     "logoUrl": "https://static-00.iconduck.com/assets.00/selenium-icon-512x496-obrnvg2v.png",
     "type": "Tool",
-    "monthsSinceLastUse": 6,
+    "lastUsedInMonths": 6,
     "layer": "UI Test Automation"
   }
 ]

@@ -14,7 +14,7 @@ const routes: Array<RouteRecordRaw> = [
   {
     path: '/projects',
     name: 'Participation in Projects',
-    component: () => import('./pages/ProjectsPage.vue'),
+    component: () => import('./pages/ProjectsHistoryPage.vue'),
   },
   {
     path: '/tech-stack',

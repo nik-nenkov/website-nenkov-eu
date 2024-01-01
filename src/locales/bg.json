@@ -14,9 +14,9 @@
   "seconds": "секунди",
   "not-found": "404 - липсващ запис",
   "page-does-not-exist": "Несъществуваща Страница",
-  "tech-page-title": "Използвани Технологии:",
-  "time-page-title": "Хронологичен Ред:",
-  "projects-page-title": "Участия в Проекти:",
+  "tech-page-title": "Използвани Технологии",
+  "time-page-title": "Хронологичен Ред",
+  "projects-page-title": "Участия в Проекти",
   "under-construction": "(страница в процес на разработка)",
   "pageTitles": {
     "softwareCraftsmanship": "Майсторство в Софтуерното Занаятчийство"

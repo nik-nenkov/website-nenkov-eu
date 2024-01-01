@@ -2,20 +2,19 @@
   <div class="page-title">{{ $t('tech-page-title') }}</div>
   <q-table
     :columns="[
-      { name: 'logoUrl', label: 'Icon', field: 'logoUrl', align: 'center', sortable: false },
-      { name: 'name', label: 'Name', field: 'name', align: 'left', sortable: true },
-      { name: 'layer', label: 'Layer', field: 'layer', align: 'left', sortable: true },
+      { name: 'name', label: 'Name', field: 'name', align: 'right', sortable: true },
+      { name: 'layer', label: 'Layer', field: 'layer', align: 'right', sortable: true },
       { name: 'type', label: 'Type', field: 'type', align: 'left', sortable: true },
       {
-        name: 'monthsSinceLastUse',
-        label: 'Months Since Last Used (for revision)',
-        field: 'monthsSinceLastUse',
+        name: 'lastUsedInMonths',
+        label: 'Last Used (months)',
+        field: 'lastUsedInMonths',
         align: 'left',
         sortable: true,
       },
       {
         name: 'experience',
-        label: 'Experience in Years (for revision)',
+        label: 'Experience (years)',
         field: 'experience',
         align: 'left',
         sortable: true,
@@ -27,10 +26,11 @@
     :rows-per-page-options="[16]"
     row-key="name"
   >
-    <template v-slot:body-cell-logoUrl="props">
+    <template v-slot:body-cell-name="props">
       <q-td :props="props" class="q-td text-right">
         <a :href="props.row.officialDocs" target="_blank">
           <img :src="props.row.logoUrl" alt="tech icon" class="tech-icon" />
+          <div>{{props.row.name}}</div>
         </a>
       </q-td>
     </template>
@@ -46,7 +46,7 @@
     logoUrl: string
     type: string
     layer: string
-    monthsSinceLastUse: number
+    lastUsedInMonths: number
   }
 
   const loading = ref(true)
@@ -69,18 +69,39 @@
 <style>
   .tech-icon {
     align-self: center;
-    max-height: 60px;
-    max-width: 120px;
-    margin: 6px;
     height: auto;
     width: auto;
+    max-height: 20px;
+    max-width: 60px;
     object-fit: contain;
+    @media (min-width: 600px) {
+      max-height: 40px;
+      max-width: 80px;
+    }
   }
 
   .q-td.text-right a {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
+    overflow: hidden;
+    *{
+      padding-right: 0.4rem;
+      padding-left: 0.4rem;
+      overflow: hidden;
+    }
+    text-decoration: none;
+    color: #123f6c;
     align-items: center;
-    height: 80px;
+    height: 40px;
+    @media (min-width: 600px) {
+      height: 50px;
+    }
+  }
+
+  th,tr,td{
+    @media (max-width: 600px){
+      padding-left: 0.4rem !important;
+      padding-right: 0.4rem !important;
+    }
   }
 </style>

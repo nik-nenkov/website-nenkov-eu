@@ -20,7 +20,7 @@
       padding: 1rem 2rem;
       margin-bottom: 1rem;
 
-      @media (min-width: 700px) {
+      @media (min-width: 600px) {
         margin: 4rem;
         border-radius: 8px;
       }
