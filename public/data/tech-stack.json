@@ -171,10 +171,10 @@
   {
     "name": "SourceTree",
     "officialDocs": "https://www.sourcetreeapp.com/docs",
-    "logoUrl": "/images/212C4E3F5693246F43.jpeg",
-    "type": "Version Control",
+    "logoUrl": "/images/sourcetree-logo-png-transparent.png",
+    "type": "Client",
     "lastUsedInMonths": 0,
-    "layer": "Client"
+    "layer": "Version Control"
   },
   {
     "name": "TortoiseGit",
