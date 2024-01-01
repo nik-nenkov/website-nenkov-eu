@@ -14,7 +14,7 @@
     "logoUrl": "https://upload.wikimedia.org/wikipedia/en/3/30/Java_programming_language_logo.svg",
     "type": "Language",
     "lastUsedInMonths": 0,
-    "layer": "Application Programming"
+    "layer": "Programming"
   },
   {
     "name": "GoLang",
@@ -22,7 +22,7 @@
     "logoUrl": "https://go.dev/images/go-logo-blue.svg",
     "type": "Language",
     "lastUsedInMonths": 3,
-    "layer": "Application Programming"
+    "layer": "Programming"
   },
   {
     "name": "Python",
@@ -30,7 +30,7 @@
     "logoUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c3/Python-logo-notext.svg",
     "type": "Language",
     "lastUsedInMonths": 0,
-    "layer": "Application Programming"
+    "layer": "Programming"
   },
   {
     "name": "Spring Boot",
@@ -86,7 +86,7 @@
     "logoUrl": "https://www.postgresql.org/media/img/about/press/elephant.png",
     "type": "Management System",
     "lastUsedInMonths": 0,
-    "layer": "Relational Database"
+    "layer": "Database"
   },
   {
     "name": "IntelliJ",
@@ -94,7 +94,7 @@
     "logoUrl": "https://resources.jetbrains.com/storage/products/company/brand/logos/IntelliJ_IDEA_icon.svg",
     "type": "IDE",
     "lastUsedInMonths": 0,
-    "layer": "Application Programing"
+    "layer": "Programming"
   },
   {
     "name": "Docker",
@@ -118,7 +118,7 @@
     "logoUrl": "https://cdn.iconscout.com/icon/free/png-512/free-elasticsearch-226094.png",
     "type": "Engine",
     "lastUsedInMonths": 30,
-    "layer": "Data Management"
+    "layer": "Database"
   },
   {
     "name": "MQTT",
@@ -190,7 +190,7 @@
     "logoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/ChatGPT_logo.svg/240px-ChatGPT_logo.svg.png",
     "type": "LLM",
     "lastUsedInMonths": 0,
-    "layer": "AI and Machine Learning"
+    "layer": "AI & ML"
   },
   {
     "name": "GitHub",
@@ -206,7 +206,7 @@
     "logoUrl": "https://www.typescriptlang.org/icons/icon-48x48.png",
     "type": "Language",
     "lastUsedInMonths": 0,
-    "layer": "Software Programming"
+    "layer": "Programming"
   },
   {
     "name": "CodeIgniter",
@@ -222,7 +222,7 @@
     "logoUrl": "https://isocpp.org/assets/images/cpp_logo.png",
     "type": "Language",
     "lastUsedInMonths": 80,
-    "layer": "Software Programming"
+    "layer": "Programming"
   },
   {
     "name": "MetalpriceAPI",
