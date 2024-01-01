@@ -1,10 +1,8 @@
 <template>
   <q-page class="full-width-page">
-    <h6 class="custom-header" v-html="timeUntilNewYear" />
-    <h4 class="custom-header">{{$t('until-new-year')}}</h4>
-    <h4 class="custom-header">...</h4>
-    <h4 class="custom-header">... ... ... ...</h4>
-    <h4 class="custom-header">... ... ... ... ... ... ... ... ...</h4>
+    <q-item class="page-title">Mastering Software Craftsmanship</q-item>
+    <q-item class="custom-header">Advancing the Skills of Software Design, Development, and Deployment</q-item>
+    <q-item class="custom-header">Sharing Thoughts, Ideas, Links to Articles and Videos, and a Personal Backstory</q-item>
   </q-page>
 </template>
 

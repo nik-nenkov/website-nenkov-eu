@@ -169,6 +169,38 @@
     "layer": "Infrastructure"
   },
   {
+    "name": "SourceTree",
+    "officialDocs": "https://www.sourcetreeapp.com/docs",
+    "logoUrl": "/images/212C4E3F5693246F43.jpeg",
+    "type": "Version Control Interface",
+    "monthsSinceLastUse": 0,
+    "layer": "Development Tools"
+  },
+  {
+    "name": "TortoiseGit",
+    "officialDocs": "https://tortoisegit.org/docs/",
+    "logoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/TortoiseGit_logo.svg/320px-TortoiseGit_logo.svg.png",
+    "type": "Git Client",
+    "monthsSinceLastUse": 0,
+    "layer": "Version Control"
+  },
+  {
+    "name": "ChatGPT",
+    "officialDocs": "https://openai.com/api/",
+    "logoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/ChatGPT_logo.svg/240px-ChatGPT_logo.svg.png",
+    "type": "AI Language Model",
+    "monthsSinceLastUse": 0,
+    "layer": "AI and Machine Learning"
+  },
+  {
+    "name": "GitHub",
+    "officialDocs": "https://docs.github.com/en",
+    "logoUrl": "https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png",
+    "type": "Code Hosting Platform",
+    "monthsSinceLastUse": 0,
+    "layer": "Development Collaboration"
+  },
+  {
     "name": "TypeScript",
     "officialDocs": "https://www.typescriptlang.org/docs/",
     "logoUrl": "https://www.typescriptlang.org/icons/icon-48x48.png",

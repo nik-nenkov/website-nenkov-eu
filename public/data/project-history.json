@@ -24,27 +24,27 @@
     "technologies": "technologies used"
   },
   {
-    "name": "Gaming Administration System",
+    "name": "Gaming Administration Panel Optimization",
     "role": "Software Developer",
     "location": "Sofia, Bulgaria",
     "duration": "8 months",
-    "achievements": "achievements",
+    "achievements": "Enhanced the functionality of an administration panel for a global gaming and casino entity, focusing on marketing and bonus features. Collaborated across multiple repositories and effectively communicated with stakeholders across various locations, including London, Bulgaria, and New Zealand.",
     "technologies": "technologies used"
   },
   {
-    "name": "Traffic Engineering Tools",
+    "name": "Traffic Engineering Solutions",
     "role": "Software Developer",
     "location": "Sofia, Bulgaria",
     "duration": "8 months",
-    "achievements": "achievements",
+    "achievements": "Contributed significantly to a traffic engineering initiative, architecting tools for traffic simulations and essential ETL jobs. Leveraged Java-based frameworks within Kubernetes clusters, ensuring efficient operations and seamless integrations.",
     "technologies": "technologies used"
   },
   {
-    "name": "Sports Data API Integration",
+    "name": "Sports Data to Wallet Integration",
     "role": "Software Developer",
     "location": "Sofia, Bulgaria",
     "duration": "9 months",
-    "achievements": "achievements",
+    "achievements": "Led the integration of sports data into an existing wallet app, pioneering the creation of a vital frontend library in Angular. Acted as a mentor to incoming talent and facilitated effective collaboration among diverse teams encompassing designers, product owners, architects, and QA specialists.",
     "technologies": "technologies used"
   },
   {

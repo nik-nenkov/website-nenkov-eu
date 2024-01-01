@@ -3,7 +3,6 @@
   "welcome-title": "Nikolay Nenkov",
   "flag-url": "https://flagcdn.com/64x48/ch.png",
   "lang": "DE",
-  "until-new-year": "bis zum neuen Jahr 2024!",
   "day": " Tag,",
   "days": " Tage,",
   "hour": " Stunde,",
@@ -13,9 +12,10 @@
   "second": " Sekunde",
   "seconds": " Sekunden",
   "not-found": "404 - Nicht gefunden",
-  "page-does-not-exist": "Die Seite, die Sie suchen, existiert nicht.",
   "tech-page-title": "Technologien:",
   "time-page-title": "Zeitleiste:",
+  "until-new-year": "bis zum neuen Jahr 2024!",
   "projects-page-title": "Teilnahme an Projekten:",
-  "under-construction": "(Seite im Aufbau)"
+  "under-construction": "(Seite im Aufbau)",
+  "page-does-not-exist": "Die Seite, die Sie suchen, existiert nicht."
 }
