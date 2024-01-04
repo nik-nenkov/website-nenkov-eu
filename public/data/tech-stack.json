@@ -222,7 +222,7 @@
     "logoUrl": "https://hibernate.org/images/hibernate-logo.svg",
     "type": "Framework",
     "lastUsedInMonths": 12,
-    "layer": "Object-Relational Mapping"
+    "layer": "ORM"
   },
   {
     "name": "SonarQube",
