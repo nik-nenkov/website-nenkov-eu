@@ -3,11 +3,12 @@
   <div class="projects-container">
     <div v-for="project in projects" :key="project.name" class="project-card">
       <h3>{{ project.name }}</h3>
-      <p><strong class="color-primary">Role:</strong> {{ project.role }}</p>
-      <p><strong class="color-primary">Location:</strong> {{ project.location }}</p>
-      <p><strong class="color-primary">Duration:</strong> {{ project.duration }}</p>
-      <p><strong class="color-primary">Achievements:</strong> {{ project.achievements }}</p>
-      <p><strong class="color-primary">Technologies:</strong> {{ project.technologies }}</p>
+      <p><strong>Role:</strong> {{ project.role }}</p>
+      <p><strong>Location:</strong> {{ project.location }}</p>
+      <p><strong>Year(s):</strong> {{ project.year }}</p>
+      <p><strong>Duration:</strong> {{ project.duration }}</p>
+      <p><strong>Achievements:</strong> {{ project.achievements }}</p>
+      <p><strong>Technologies Used:</strong> {{ project.technologies }}</p>
     </div>
   </div>
 </template>
@@ -16,21 +17,27 @@
   @import 'src/main';
   .projects-container {
     .project-card {
-      background-color: $secondary;
+      border-top: 2px solid $primary;
+      background-color: $blank;
       padding: 1rem 2rem;
-      margin-bottom: 1rem;
+      border-left: none;
+      border-right: none;
 
       @media (min-width: 600px) {
+        border: 2px solid $primary;
         margin: 4rem;
         border-radius: 8px;
       }
 
       h3 {
-        color: $primary;
+        color: $secondary;
       }
 
       p {
-        color: $blank;
+        strong{
+          color: $secondary
+        }
+        color: $primary;
       }
     }
   }
@@ -42,6 +49,7 @@
     name: string
     role: string
     location: string
+    year: string
     duration: string
     achievements: string
     technologies: string

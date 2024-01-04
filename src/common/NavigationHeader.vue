@@ -41,7 +41,7 @@
   .navigation-header {
     background-color: transparent;
     color: $primary;
-    font-family: 'Roboto Mono', monospace;
+    font-family: $font-main;
     user-select: none;
     cursor: default;
     font-size: 1.5rem;

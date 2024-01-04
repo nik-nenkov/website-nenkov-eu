@@ -34,7 +34,7 @@ $gradient-la: linear-gradient(to right, $blank, $accent);
 
 .custom-header {
   color: $secondary;
-  font-family: 'Roboto Mono', monospace;
+  font-family: $font-main;
   user-select: none;
   cursor: default;
   font-size: 1.5rem;

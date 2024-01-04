@@ -3,7 +3,8 @@
     "name": "Geolocating Internet Content",
     "role": "Software Developer",
     "location": "remote",
-    "duration": "1 month",
+    "year":"2023, 2024",
+    "duration": "2 months",
     "achievements": "achievements",
     "technologies": "technologies used"
   },
@@ -11,6 +12,7 @@
     "name": "Geotracing Company Hardware",
     "role": "Software Developer",
     "location": "Sofia, Bulgaria",
+    "year":"2023",
     "duration": "3 months",
     "achievements": "achievements",
     "technologies": "technologies used"
@@ -19,6 +21,7 @@
     "name": "Commodity Prices API Integration",
     "role": "Software Developer",
     "location": "Sofia, Bulgaria",
+    "year":"2023",
     "duration": "2 months",
     "achievements": "achievements",
     "technologies": "technologies used"
@@ -27,6 +30,7 @@
     "name": "Gaming Administration Panel Optimization",
     "role": "Software Developer",
     "location": "Sofia, Bulgaria",
+    "year":"2022, 2023",
     "duration": "8 months",
     "achievements": "Enhanced the functionality of an administration panel for a global gaming and casino entity, focusing on marketing and bonus features. Collaborated across multiple repositories and effectively communicated with stakeholders across various locations, including London, Bulgaria, and New Zealand.",
     "technologies": "technologies used"
@@ -35,6 +39,7 @@
     "name": "Traffic Engineering Solutions",
     "role": "Software Developer",
     "location": "Sofia, Bulgaria",
+    "year":"2022",
     "duration": "8 months",
     "achievements": "Contributed significantly to a traffic engineering initiative, architecting tools for traffic simulations and essential ETL jobs. Leveraged Java-based frameworks within Kubernetes clusters, ensuring efficient operations and seamless integrations.",
     "technologies": "technologies used"
@@ -43,6 +48,7 @@
     "name": "Sports Data to Wallet Integration",
     "role": "Software Developer",
     "location": "Sofia, Bulgaria",
+    "year":"2021",
     "duration": "9 months",
     "achievements": "Led the integration of sports data into an existing wallet app, pioneering the creation of a vital frontend library in Angular. Acted as a mentor to incoming talent and facilitated effective collaboration among diverse teams encompassing designers, product owners, architects, and QA specialists.",
     "technologies": "technologies used"
@@ -51,7 +57,80 @@
     "name": "Contractor Performance Evaluation System",
     "role": "Software Developer",
     "location": "Sofia, Bulgaria",
+    "year":"2020",
     "duration": "11 months",
+    "achievements": "achievements",
+    "technologies": "technologies used"
+  },
+  {
+    "name": "Security Surveillance Backend and Middleware",
+    "role": "Software Developer",
+    "location": "Sofia, Bulgaria",
+    "year":"2019, 2020",
+    "duration": "3 months",
+    "achievements": "achievements",
+    "technologies": "technologies used"
+  },
+  {
+    "name": "Admin Panel for an Access Control System",
+    "role": "Software Developer",
+    "location": "Sofia, Bulgaria",
+    "year":"2018, 2019",
+    "duration": "15 months",
+    "achievements": "achievements",
+    "technologies": "technologies used"
+  },
+  {
+    "name": "Company Resource Allocation System",
+    "role": "Software Developer",
+    "location": "Sofia, Bulgaria",
+    "year":"2018",
+    "duration": "5 months",
+    "achievements": "achievements",
+    "technologies": "technologies used"
+  },
+  {
+    "name": "Educational Catalogue on Botanical Diversity",
+    "role": "Software Developer",
+    "location": "Sofia, Bulgaria",
+    "year":"2017",
+    "duration": "4 months",
+    "achievements": "achievements",
+    "technologies": "technologies used"
+  },
+  {
+    "name": "CMS for a Pizza Place",
+    "role": "Software Developer",
+    "location": "Gabrovo, Bulgaria",
+    "year":"2015",
+    "duration": "3 months",
+    "achievements": "achievements",
+    "technologies": "technologies used"
+  },
+  {
+    "name": "Electronic Door Lock Design",
+    "role": "Software Developer",
+    "location": "Gabrovo, Bulgaria",
+    "year":"2014",
+    "duration": "3 months",
+    "achievements": "achievements",
+    "technologies": "technologies used"
+  },
+  {
+    "name": "Encrypted P2P Messaging CLI",
+    "role": "Software Developer",
+    "location": "Sofia, Bulgaria",
+    "year":"2013",
+    "duration": "2 months",
+    "achievements": "achievements",
+    "technologies": "technologies used"
+  },
+  {
+    "name": "Login and Registration for MMORPG",
+    "role": "Software Developer",
+    "location": "Gabrovo, Bulgaria",
+    "year":"2009, 2010",
+    "duration": "4 months",
     "achievements": "achievements",
     "technologies": "technologies used"
   }

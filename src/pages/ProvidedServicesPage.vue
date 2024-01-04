@@ -76,24 +76,29 @@
   </q-page>
 </template>
 
-<script setup lang="ts">
+<script lang="ts" setup>
   // Script content goes here
 </script>
 
-<style scoped lang="scss">
+<style lang="scss" scoped>
+  @import 'src/main';
 
-  .custom-header{
+  .custom-header {
     text-align: start;
   }
-  .provided-service-section{
-    font-family: "Roboto Mono", monospace;
+
+  .provided-service-section {
+    font-family: $font-main;
     margin-bottom: 5vw;
   }
 
   .services-page {
-  margin:0;
-    padding:0;
-  } .services-list, .page-title{
+    margin: 0;
+    padding: 0;
+  }
+
+  .services-list,
+  .page-title {
     padding: 2rem 5vw;
     margin: 0;
   }
