@@ -30,7 +30,7 @@
       <q-td :props="props" class="q-td text-right">
         <a :href="props.row.officialDocs" target="_blank">
           <img :src="props.row.logoUrl" alt="tech icon" class="tech-icon" />
-          <div>{{props.row.name}}</div>
+          <div>{{ props.row.name }}</div>
         </a>
       </q-td>
     </template>
@@ -84,11 +84,14 @@
     display: flex;
     justify-content: space-between;
     overflow: hidden;
-    *{
+
+    * {
       padding-right: 0.4rem;
       padding-left: 0.4rem;
       overflow: hidden;
+      cursor: pointer;
     }
+
     text-decoration: none;
     color: #123f6c;
     align-items: center;
@@ -98,8 +101,10 @@
     }
   }
 
-  th,tr,td{
-    @media (max-width: 600px){
+  th,
+  tr,
+  td {
+    @media (max-width: 600px) {
       padding-left: 0.4rem !important;
       padding-right: 0.4rem !important;
     }
