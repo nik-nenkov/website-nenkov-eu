@@ -3,15 +3,16 @@
   <div class="projects-container">
     <div v-for="project in projects" :key="project.name" class="project-card">
       <h3>{{ project.name }}</h3>
-      <p><strong>Role:</strong> {{ project.role }}</p>
-      <p><strong>Location:</strong> {{ project.location }}</p>
-      <p><strong>Year(s):</strong> {{ project.year }}</p>
-      <p><strong>Duration:</strong> {{ project.duration }}</p>
-      <p><strong>Achievements:</strong> {{ project.achievements }}</p>
-      <p><strong>Technologies Used:</strong> {{ project.technologies }}</p>
+      <p><strong>{{ $t('role') }}:</strong> {{ project.role }}</p>
+      <p><strong>{{ $t('location') }}:</strong> {{ project.location }}</p>
+      <p><strong>{{ $t('years') }}:</strong> {{ project.year }}</p>
+      <p><strong>{{ $t('duration') }}:</strong> {{ project.duration }}</p>
+      <p><strong>{{ $t('achievements') }}:</strong> {{ project.achievements }}</p>
+      <p><strong>{{ $t('technologiesUsed') }}:</strong> {{ project.technologies }}</p>
     </div>
   </div>
 </template>
+
 
 <style lang="scss" scoped>
   @import 'src/main';

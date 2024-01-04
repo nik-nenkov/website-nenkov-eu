@@ -51,5 +51,11 @@
     "securityImplementationDesc": "Incorporating OAuth and other security protocols for secure applications.",
     "educationalServices": "Educational Services",
     "educationalServicesDesc": "Teaching mathematics and natural sciences to students; mentoring young professionals in software craftsmanship."
-  }
+  },
+  "role": "Role",
+  "location": "Location",
+  "years": "Year(s)",
+  "duration": "Duration",
+  "achievements": "Achievements",
+  "technologiesUsed": "Technologies Used"
 }

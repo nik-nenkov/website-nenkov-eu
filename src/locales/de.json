@@ -51,5 +51,12 @@
     "securityImplementationDesc": "Einbindung von OAuth und anderen Sicherheitsprotokollen für sichere Anwendungen.",
     "educationalServices": "Bildungsdienste",
     "educationalServicesDesc": "Unterricht in Mathematik und Naturwissenschaften für Studenten; Mentoring für junge Fachleute im Bereich Software-Handwerk."
-  }
+  },
+
+  "role": "Rolle",
+  "location": "Ort",
+  "years": "Jahr(e)",
+  "duration": "Dauer",
+  "achievements": "Errungenschaften",
+  "technologiesUsed": "Verwendete Technologien"
 }
