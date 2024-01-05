@@ -2,7 +2,7 @@
   {
     "name": "Angular",
     "officialDocs": "https://angular.io/docs",
-    "logoUrl": "https://angular.io/assets/images/logos/angular/angular.svg",
+    "logoUrl": "/images/logo/angular.svg",
     "type": "Framework",
     "layer": "Frontend",
     "lastUsedInMonths": 20,
@@ -35,7 +35,7 @@
   {
     "name": "Spring Boot",
     "officialDocs": "https://spring.io/projects/spring-boot",
-    "logoUrl": "https://miro.medium.com/v2/resize:fit:720/format:webp/0*R60lnmJl4hanOBaJ.png",
+    "logoUrl": "/images/logo/spring-boot.png",
     "type": "Framework",
     "lastUsedInMonths": 0,
     "layer": "Backend"
@@ -59,7 +59,7 @@
   {
     "name": "SportRadar",
     "officialDocs": "https://developer.sportradar.com/docs/read/Home",
-    "logoUrl": "https://developer.sportradar.com/files/logo.svg",
+    "logoUrl": "/images/logo/sportradar.png",
     "type": "API",
     "lastUsedInMonths": 20,
     "layer": "Integration"
@@ -67,7 +67,7 @@
   {
     "name": "OpenLayers",
     "officialDocs": "https://openlayers.org/doc/",
-    "logoUrl": "https://openlayers.org/theme/img/logo-dark.svg",
+    "logoUrl": "/images/logo/openlayers.png",
     "type": "Library",
     "lastUsedInMonths": 0,
     "layer": "Frontend"
@@ -83,7 +83,7 @@
   {
     "name": "PostgreSQL",
     "officialDocs": "https://www.postgresql.org/docs/",
-    "logoUrl": "https://www.postgresql.org/media/img/about/press/elephant.png",
+    "logoUrl": "/images/logo/postgresql.png",
     "type": "Management System",
     "lastUsedInMonths": 0,
     "layer": "Database"
@@ -99,7 +99,7 @@
   {
     "name": "Docker",
     "officialDocs": "https://docs.docker.com/",
-    "logoUrl": "https://www.docker.com/wp-content/uploads/2022/03/Moby-logo.png",
+    "logoUrl": "/images/logo/docker.png",
     "type": "Platform",
     "lastUsedInMonths": 0,
     "layer": "Deployment"
@@ -107,7 +107,7 @@
   {
     "name": "JaegerTracing",
     "officialDocs": "https://www.jaegertracing.io/docs/",
-    "logoUrl": "https://seeklogo.com/images/J/jaeger-logo-9E2F0DC07B-seeklogo.com.png",
+    "logoUrl": "/images/logo/jaeger.png",
     "type": "Tool",
     "lastUsedInMonths": 20,
     "layer": "Monitoring"
@@ -115,7 +115,7 @@
   {
     "name": "ElasticSearch",
     "officialDocs": "https://www.elastic.co/guide/index.html",
-    "logoUrl": "https://cdn.iconscout.com/icon/free/png-512/free-elasticsearch-226094.png",
+    "logoUrl": "/images/logo/elastic-search.png",
     "type": "Engine",
     "lastUsedInMonths": 30,
     "layer": "Database"
@@ -123,7 +123,7 @@
   {
     "name": "MQTT",
     "officialDocs": "https://mqtt.org/documentation/",
-    "logoUrl": "https://mqtt.org/assets/downloads/mqtt-ver.png",
+    "logoUrl": "/images/logo/mqtt.png",
     "type": "Protocol",
     "lastUsedInMonths": 2,
     "layer": "Communication"
@@ -131,7 +131,7 @@
   {
     "name": "WebSocket",
     "officialDocs": "https://developer.mozilla.org/en-US/docs/Web/API/WebSockets_API",
-    "logoUrl": "https://docs.loriot.io/download/attachments/14877936/websocket-logo.png",
+    "logoUrl": "/images/logo/websocket.png",
     "type": "Protocol",
     "lastUsedInMonths": 2,
     "layer": "Communication"
@@ -139,7 +139,7 @@
   {
     "name": "DBeaver",
     "officialDocs": "https://dbeaver.io/docs/wiki/",
-    "logoUrl": "https://dbeaver.io/wp-content/uploads/2015/09/beaver-head.png",
+    "logoUrl": "/images/logo/dbeaver.png",
     "type": "Tool",
     "lastUsedInMonths": 0,
     "layer": "Data Management"
@@ -147,7 +147,7 @@
   {
     "name": "Postman",
     "officialDocs": "https://learning.postman.com/docs/getting-started/introduction/",
-    "logoUrl": "https://cdn.worldvectorlogo.com/logos/postman.svg",
+    "logoUrl": "/images/logo/postman.png",
     "type": "Tool",
     "lastUsedInMonths": 0,
     "layer": "API Testing"
@@ -155,7 +155,7 @@
   {
     "name": "Shell",
     "officialDocs": "https://www.gnu.org/software/bash/manual/bash.html",
-    "logoUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4b/Bash_Logo_Colored.svg",
+    "logoUrl": "/images/logo/bash.png",
     "type": "CLI",
     "lastUsedInMonths": 0,
     "layer": "System Operations"
@@ -163,7 +163,7 @@
   {
     "name": "Kubernetes",
     "officialDocs": "https://kubernetes.io/docs/home/",
-    "logoUrl": "https://kubernetes.io/images/favicon.png",
+    "logoUrl": "/images/logo/k8s.png",
     "type": "Orchestration",
     "lastUsedInMonths": 12,
     "layer": "System Operations"
@@ -171,7 +171,7 @@
   {
     "name": "Apache Maven",
     "officialDocs": "https://maven.apache.org/what-is-maven.html",
-    "logoUrl": "https://maven.apache.org/images/maven-logo-black-on-white.png",
+    "logoUrl": "/images/logo/maven.png",
     "type": "Tool",
     "lastUsedInMonths": 0,
     "layer": "Build Automation"
@@ -179,7 +179,7 @@
   {
     "name": "REST Assured",
     "officialDocs": "https://rest-assured.io/",
-    "logoUrl": "https://rest-assured.io/img/logo-transparent.png",
+    "logoUrl": "/images/logo/rest-assured.png",
     "type": "Library",
     "lastUsedInMonths": 24,
     "layer": "Test Automation"
@@ -187,7 +187,7 @@
   {
     "name": "JUnit",
     "officialDocs": "https://junit.org",
-    "logoUrl": "https://junit.org/junit4/images/junit-logo.png",
+    "logoUrl": "/images/logo/junit.png",
     "type": "Framework",
     "lastUsedInMonths": 12,
     "layer": "Test Automation"
@@ -195,7 +195,7 @@
   {
     "name": "JFrog",
     "officialDocs": "https://jfrog.com/help/home",
-    "logoUrl": "https://companieslogo.com/img/orig/FROG-34b9e0fd.png",
+    "logoUrl": "/images/logo/jfrog.png",
     "type": "Artifactory",
     "lastUsedInMonths": 12,
     "layer": "System Operations"
@@ -203,7 +203,7 @@
   {
     "name": "LogicCircuit",
     "officialDocs": "https://www.logiccircuit.org/index.html",
-    "logoUrl": "/images/DIP-18__93767.jpg",
+    "logoUrl": "/images/logo/logiccircuit.jpg",
     "type": "Tool",
     "lastUsedInMonths": 60,
     "layer": "Circuit Design"
@@ -211,7 +211,7 @@
   {
     "name": "Jenkins",
     "officialDocs": "https://kubernetes.io/docs/home/",
-    "logoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Jenkins_logo.svg/1200px-Jenkins_logo.svg.png",
+    "logoUrl": "/images/logo/jenkins.png",
     "type": "Pipeline Automat",
     "lastUsedInMonths": 34,
     "layer": "System Operations"
@@ -219,7 +219,7 @@
   {
     "name": "Hibernate",
     "officialDocs": "https://hibernate.org/orm/",
-    "logoUrl": "https://hibernate.org/images/hibernate-logo.svg",
+    "logoUrl": "/images/logo/hibernate.png",
     "type": "Framework",
     "lastUsedInMonths": 12,
     "layer": "ORM"
@@ -227,7 +227,7 @@
   {
     "name": "SonarQube",
     "officialDocs": "https://docs.sonarsource.com/sonarqube/latest/",
-    "logoUrl": "https://assets-eu-01.kc-usercontent.com/b98b0e99-a92d-0140-c108-93833c7e1e31/905190c3-a37f-4a91-9f2e-3cc3a0798391/SonarQube_logo.svg",
+    "logoUrl": "/images/logo/sonarqube.png",
     "type": "Tool",
     "lastUsedInMonths": 12,
     "layer": "Code Inspection"
@@ -235,7 +235,7 @@
   {
     "name": "Project Lombok",
     "officialDocs": "https://projectlombok.org/",
-    "logoUrl": "https://user-images.githubusercontent.com/1204509/79262490-b2012a80-7e91-11ea-82fa-e791f8b4d177.jpg",
+    "logoUrl": "/images/logo/lombok.jpg",
     "type": "Tool",
     "lastUsedInMonths": 0,
     "layer": "Code Generation"
@@ -243,7 +243,7 @@
   {
     "name": "SourceTree",
     "officialDocs": "https://www.sourcetreeapp.com/docs",
-    "logoUrl": "/images/sourcetree-logo-png-transparent.png",
+    "logoUrl": "/images/logo/sourcetree.png",
     "type": "Client",
     "lastUsedInMonths": 0,
     "layer": "Version Control"
@@ -251,7 +251,7 @@
   {
     "name": "TortoiseGit",
     "officialDocs": "https://tortoisegit.org/docs/",
-    "logoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/TortoiseGit_logo.svg/320px-TortoiseGit_logo.svg.png",
+    "logoUrl": "/images/logo/tortoisegit.png",
     "type": "Client",
     "lastUsedInMonths": 0,
     "layer": "Version Control"
@@ -259,7 +259,7 @@
   {
     "name": "ChatGPT",
     "officialDocs": "https://openai.com/api/",
-    "logoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/ChatGPT_logo.svg/240px-ChatGPT_logo.svg.png",
+    "logoUrl": "/images/logo/chatgpt.png",
     "type": "LLM",
     "lastUsedInMonths": 0,
     "layer": "AI & ML"
@@ -267,7 +267,7 @@
   {
     "name": "GitHub",
     "officialDocs": "https://docs.github.com/en",
-    "logoUrl": "https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png",
+    "logoUrl": "/images/logo/github.png",
     "type": "Code Hosting Platform",
     "lastUsedInMonths": 0,
     "layer": "Development"
@@ -275,7 +275,7 @@
   {
     "name": "TypeScript",
     "officialDocs": "https://www.typescriptlang.org/docs/",
-    "logoUrl": "https://www.typescriptlang.org/icons/icon-48x48.png",
+    "logoUrl": "/images/logo/typescript.png",
     "type": "Language",
     "lastUsedInMonths": 0,
     "layer": "Programming"
@@ -283,7 +283,7 @@
   {
     "name": "CodeIgniter",
     "officialDocs": "https://www.codeigniter.com/discuss",
-    "logoUrl": "https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/codeigniter-icon.png",
+    "logoUrl": "/images/logo/codeigniter.png",
     "type": "Framework",
     "lastUsedInMonths": 120,
     "layer": "Backend"
@@ -291,7 +291,7 @@
   {
     "name": "C/C++",
     "officialDocs": "https://isocpp.org/std/the-standard",
-    "logoUrl": "https://isocpp.org/assets/images/cpp_logo.png",
+    "logoUrl": "/images/logo/cpp.png",
     "type": "Language",
     "lastUsedInMonths": 80,
     "layer": "Programming"
@@ -299,7 +299,7 @@
   {
     "name": "MetalpriceAPI",
     "officialDocs": "https://metalpriceapi.com/documentation",
-    "logoUrl": "https://metalpriceapi.com/assets/logo-dark-b4271658d08b5c510c2204a516115f6707c329150d4ccc483ba70d0d9830b35a.png",
+    "logoUrl": "/images/logo/metalprice.png",
     "type": "API",
     "lastUsedInMonths": 4,
     "layer": "Integration"
@@ -307,7 +307,7 @@
   {
     "name": "Figma",
     "officialDocs": "https://www.figma.com/community",
-    "logoUrl": "/images/figma_logo_icon_128x128.png",
+    "logoUrl": "/images/logo/figma.png",
     "type": "Tool",
     "lastUsedInMonths": 0,
     "layer": "Design"
@@ -315,7 +315,7 @@
   {
     "name": "SUMO",
     "officialDocs": "https://sumo.dlr.de/docs",
-    "logoUrl": "https://sumo.dlr.de/docs/images/sumo-logo.png",
+    "logoUrl": "/images/logo/sumo.png",
     "type": "Engine",
     "lastUsedInMonths": 12,
     "layer": "Simulation"
@@ -323,7 +323,7 @@
   {
     "name": "Vue.js",
     "officialDocs": "https://vuejs.org/guide/introduction.html",
-    "logoUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f1/Vue.png",
+    "logoUrl": "/images/logo/vue.png",
     "type": "Framework",
     "lastUsedInMonths": 0,
     "layer": "Frontend"
@@ -331,7 +331,7 @@
   {
     "name": "Selenium",
     "officialDocs": "https://www.selenium.dev/documentation/webdriver/",
-    "logoUrl": "https://static-00.iconduck.com/assets.00/selenium-icon-512x496-obrnvg2v.png",
+    "logoUrl": "/images/logo/selenium.png",
     "type": "Tool",
     "lastUsedInMonths": 6,
     "layer": "UI Test Automation"
