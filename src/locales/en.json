@@ -52,7 +52,7 @@
     "securityImplementation": "Security Implementation",
     "securityImplementationDesc": "Incorporating OAuth and other security protocols for secure applications.",
     "educationalServices": "Educational Services",
-    "educationalServicesDesc": "Teaching mathematics and natural sciences to students; mentoring young professionals in software craftsmanship."
+    "educationalServicesDesc": "Teaching mathematics and natural sciences to students; \\n Mentoring young professionals in software craftsmanship."
   },
   "role": "Role",
   "location": "Location",
@@ -61,5 +61,5 @@
   "achievements": "Achievements",
   "technologiesUsed": "Technologies Used",
   "personalStatement": "Personal Statement",
-  "description": "As an experienced full-stack developer, capable of supporting and extending your existing IT systems, and designing and implementing new ones, I can contribute to your organisation by reducing long-term costs, organising your documentation, integrating third-party software and systems, and leading junior developers.\nMy goals are centred around clear communication, synchronising people with different roles onsite and remotely, and working in stakeholders' best interests.\nInterdisciplinary knowledge gained throughout the years is allowing me to ask better questions, look at the greater scale of things as well as improving and fixing the details expected by the designers, managers, DevOps and QA teams, and customers."
+  "description": "  As an experienced full-stack developer, capable of supporting and extending your existing IT systems, and designing and implementing new ones, I can contribute to your organisation by reducing long-term costs, organising your documentation, integrating third-party software and systems, and leading junior developers.\\n  My goals are centred around clear communication, synchronising people with different roles onsite and remotely, and working in stakeholders' best interests.\\n Interdisciplinary knowledge gained throughout the years is allowing me to ask better questions, look at the greater scale of things as well as improving and fixing the details expected by the designers, managers, DevOps and QA teams, and customers."
 }
