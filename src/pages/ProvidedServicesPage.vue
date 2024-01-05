@@ -83,13 +83,18 @@
 <style lang="scss" scoped>
   @import 'src/main';
 
+  .page-title{
+    padding: 4rem !important;
+  }
+
   .custom-header {
     text-align: start;
   }
 
   .provided-service-section {
     font-family: $font-main;
-    margin-bottom: 5vw;
+    font-size: 1rem;
+    margin-bottom: 4vw;
   }
 
   .services-page {
@@ -99,7 +104,7 @@
 
   .services-list,
   .page-title {
-    padding: 2rem 5vw;
+    padding: 2vw 4vw;
     margin: 0;
   }
 </style>
