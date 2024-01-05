@@ -4,7 +4,7 @@
     <div
       v-for="project in projects"
       :key="project.name"
-      class="project-card col-12 col-sm-10 col-md-6 col-xl-3"
+      class="project-card col-12 col-sm-10 col-md-5 col-lg-3"
     >
       <div class="project-name">{{ project.name }}</div>
       <p>
@@ -32,6 +32,9 @@
 <style lang="scss" scoped>
   @import 'src/main';
 
+  .page-title{
+    margin: 1rem !important;
+  }
   .projects-container {
     .project-card {
       border-top: 2px solid $primary;
@@ -39,11 +42,12 @@
       padding: 1rem 2rem;
       border-left: none;
       border-right: none;
+      margin: 0;
 
       @media (min-width: 600px) {
         border: 2px solid $primary;
-        margin: 4rem;
         border-radius: 8px;
+        margin: 1rem;
       }
 
       .project-name {
