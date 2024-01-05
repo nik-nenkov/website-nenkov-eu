@@ -22,9 +22,19 @@ const routes: Array<RouteRecordRaw> = [
     component: () => import('./pages/TechnologiesPage.vue'),
   },
   {
-    path: '/Services',
+    path: '/services',
     name: "Providing Services",
     component: () => import('./pages/ProvidedServicesPage.vue'),
+  },
+  {
+    path: '/intro',
+    name: "Introduction",
+    component: () => import('./pages/IntroductionPage.vue'),
+  },
+  {
+    path: '/contact',
+    name: "Contact Details",
+    component: () => import('./pages/ContactDetailsPage.vue'),
   },
   {
     path: '/:catchAll(.*)',

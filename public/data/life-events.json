@@ -7,10 +7,16 @@
     "location": "Gabrovo, Bulgaria"
   },
   {
-    "title": "worked at",
+    "title": "Started Elementary School",
     "subject": "EatGlobe ltd.",
-    "year": 2014,
+    "year": 1998,
     "month": "AUG",
     "location": "Varna, Bulgaria"
+  },
+  {
+    "title": "Born",
+    "year": 1991,
+    "month": "July",
+    "location": "Gabrovo, Bulgaria"
   }
 ]

@@ -1,21 +1,37 @@
 <template>
   <div class="page-title">{{ $t('projects-page-title') }}</div>
-  <div class="projects-container">
-    <div v-for="project in projects" :key="project.name" class="project-card">
-      <h3>{{ project.name }}</h3>
-      <p><strong>{{ $t('role') }}:</strong> {{ project.role }}</p>
-      <p><strong>{{ $t('location') }}:</strong> {{ project.location }}</p>
-      <p><strong>{{ $t('years') }}:</strong> {{ project.year }}</p>
-      <p><strong>{{ $t('duration') }}:</strong> {{ project.duration }}</p>
-      <p><strong>{{ $t('achievements') }}:</strong> {{ project.achievements }}</p>
-      <p><strong>{{ $t('technologiesUsed') }}:</strong> {{ project.technologies }}</p>
+  <div class="projects-container row justify-center">
+    <div
+      v-for="project in projects"
+      :key="project.name"
+      class="project-card col-12 col-sm-10 col-md-6 col-xl-3"
+    >
+      <div class="project-name">{{ project.name }}</div>
+      <p>
+        <strong>{{ $t('role') }}:</strong> {{ project.role }}
+      </p>
+      <p>
+        <strong>{{ $t('location') }}:</strong> {{ project.location }}
+      </p>
+      <p>
+        <strong>{{ $t('years') }}:</strong> {{ project.year }}
+      </p>
+      <p>
+        <strong>{{ $t('duration') }}:</strong> {{ project.duration }}
+      </p>
+      <p>
+        <strong>{{ $t('achievements') }}:</strong> {{ project.achievements }}
+      </p>
+      <p>
+        <strong>{{ $t('technologiesUsed') }}:</strong> {{ project.technologies }}
+      </p>
     </div>
   </div>
 </template>
 
-
 <style lang="scss" scoped>
   @import 'src/main';
+
   .projects-container {
     .project-card {
       border-top: 2px solid $primary;
@@ -30,14 +46,17 @@
         border-radius: 8px;
       }
 
-      h3 {
+      .project-name {
         color: $secondary;
+        font-size: 2rem;
+        padding: 1rem 0 2rem 0;
       }
 
       p {
-        strong{
-          color: $secondary
+        strong {
+          color: $secondary;
         }
+
         color: $primary;
       }
     }

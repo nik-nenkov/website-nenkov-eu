@@ -29,7 +29,9 @@
     "techStack": "Технологии",
     "timeline": "Хронология",
     "projects": "Проекти",
-    "services": "Услуги"
+    "services": "Услуги",
+    "intro": "Представяне",
+    "contact": "Данни за контакт"
   },
   "services": {
     "ourServices": "Предлагани Услуги",

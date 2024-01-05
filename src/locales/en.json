@@ -29,7 +29,9 @@
     "techStack": "Tech Stack",
     "timeline": "Timeline",
     "projects": "Projects",
-    "services": "Services"
+    "services": "Services",
+    "intro": "Introduction",
+    "contact": "Contact Details"
   },
   "services": {
     "ourServices": "Services Provided",
