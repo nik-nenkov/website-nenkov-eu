@@ -1,5 +1,5 @@
 {
-  "name": "nenkov-info",
+  "name": "nenkov-eu",
   "private": true,
   "version": "0.0.2",
   "type": "module",
@@ -44,9 +44,9 @@
     "name": "Nik Nenkov",
     "url": "https://nenkov.info"
   },
-  "homepage": "https://nenkov.info",
+  "homepage": "https://nenkov.eu",
   "repository": {
-    "url": "https://github.com/nik-nenkov/nik-nenkov",
+    "url": "https://github.com/nik-nenkov/website-nenkov-eu",
     "type": "git"
   }
 }
